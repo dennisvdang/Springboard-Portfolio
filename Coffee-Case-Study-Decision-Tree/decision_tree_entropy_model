@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<spent_last_month &le; 138.0<br/>entropy = 0.948<br/>samples = 355<br/>value = [130, 225]<br/>class = Yes>, fillcolor="#abd6f4"] ;
+1 [label=<Distance &le; 3.524<br/>entropy = 0.991<br/>samples = 234<br/>value = [130, 104]<br/>class = No>, fillcolor="#fae6d7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<spent_last_month &le; 24.5<br/>entropy = 0.512<br/>samples = 79<br/>value = [9, 70]<br/>class = Yes>, fillcolor="#52aae8"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.0<br/>samples = 8<br/>value = [8, 0]<br/>class = No>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<Age &le; 59.0<br/>entropy = 0.107<br/>samples = 71<br/>value = [1, 70]<br/>class = Yes>, fillcolor="#3c9ee5"] ;
+2 -> 4 ;
+5 [label=<entropy = 0.0<br/>samples = 70<br/>value = [0, 70]<br/>class = Yes>, fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label=<entropy = 0.0<br/>samples = 1<br/>value = [1, 0]<br/>class = No>, fillcolor="#e58139"] ;
+4 -> 6 ;
+7 [label=<spent_last_month &le; 101.0<br/>entropy = 0.759<br/>samples = 155<br/>value = [121, 34]<br/>class = No>, fillcolor="#eca471"] ;
+1 -> 7 ;
+8 [label=<Distance &le; 4.0<br/>entropy = 0.191<br/>samples = 102<br/>value = [99, 3]<br/>class = No>, fillcolor="#e6853f"] ;
+7 -> 8 ;
+9 [label=<Age &le; 26.5<br/>entropy = 0.985<br/>samples = 7<br/>value = [4, 3]<br/>class = No>, fillcolor="#f8e0ce"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.0<br/>samples = 3<br/>value = [0, 3]<br/>class = Yes>, fillcolor="#399de5"] ;
+9 -> 10 ;
+11 [label=<entropy = 0.0<br/>samples = 4<br/>value = [4, 0]<br/>class = No>, fillcolor="#e58139"] ;
+9 -> 11 ;
+12 [label=<entropy = 0.0<br/>samples = 95<br/>value = [95, 0]<br/>class = No>, fillcolor="#e58139"] ;
+8 -> 12 ;
+13 [label=<Distance &le; 7.887<br/>entropy = 0.979<br/>samples = 53<br/>value = [22, 31]<br/>class = Yes>, fillcolor="#c6e3f7"] ;
+7 -> 13 ;
+14 [label=<entropy = 0.0<br/>samples = 31<br/>value = [0, 31]<br/>class = Yes>, fillcolor="#399de5"] ;
+13 -> 14 ;
+15 [label=<entropy = 0.0<br/>samples = 22<br/>value = [22, 0]<br/>class = No>, fillcolor="#e58139"] ;
+13 -> 15 ;
+16 [label=<entropy = 0.0<br/>samples = 121<br/>value = [0, 121]<br/>class = Yes>, fillcolor="#399de5"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
