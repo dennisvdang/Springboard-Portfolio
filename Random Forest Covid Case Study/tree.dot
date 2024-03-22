@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="petal length (cm) <= 2.45\ngini = 0.66\nsamples = 94\nvalue = [46, 57, 47]\nclass = versicolor", fillcolor="#ecfcf3"] ;
+1 [label="gini = 0.0\nsamples = 31\nvalue = [46, 0, 0]\nclass = setosa", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="sepal length (cm) <= 6.25\ngini = 0.5\nsamples = 63\nvalue = [0, 57, 47]\nclass = versicolor", fillcolor="#dcfae9"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="petal width (cm) <= 1.65\ngini = 0.4\nsamples = 30\nvalue = [0, 44, 17]\nclass = versicolor", fillcolor="#86efb2"] ;
+2 -> 3 ;
+4 [label="petal length (cm) <= 4.8\ngini = 0.18\nsamples = 23\nvalue = [0, 44, 5]\nclass = versicolor", fillcolor="#50e88f"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 21\nvalue = [0, 44, 0]\nclass = versicolor", fillcolor="#39e581"] ;
+4 -> 5 ;
+6 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 5]\nclass = virginica", fillcolor="#8139e5"] ;
+4 -> 6 ;
+7 [label="gini = 0.0\nsamples = 7\nvalue = [0, 0, 12]\nclass = virginica", fillcolor="#8139e5"] ;
+3 -> 7 ;
+8 [label="sepal length (cm) <= 7.05\ngini = 0.42\nsamples = 33\nvalue = [0, 13, 30]\nclass = virginica", fillcolor="#b88ff0"] ;
+2 -> 8 ;
+9 [label="petal width (cm) <= 1.7\ngini = 0.48\nsamples = 26\nvalue = [0, 13, 19]\nclass = virginica", fillcolor="#d7c0f7"] ;
+8 -> 9 ;
+10 [label="petal length (cm) <= 5.0\ngini = 0.13\nsamples = 12\nvalue = [0, 13, 1]\nclass = versicolor", fillcolor="#48e78b"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 11\nvalue = [0, 13, 0]\nclass = versicolor", fillcolor="#39e581"] ;
+10 -> 11 ;
+12 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", fillcolor="#8139e5"] ;
+10 -> 12 ;
+13 [label="gini = 0.0\nsamples = 14\nvalue = [0, 0, 18]\nclass = virginica", fillcolor="#8139e5"] ;
+9 -> 13 ;
+14 [label="gini = 0.0\nsamples = 7\nvalue = [0, 0, 11]\nclass = virginica", fillcolor="#8139e5"] ;
+8 -> 14 ;
+}
