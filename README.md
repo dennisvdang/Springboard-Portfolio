@@ -2,23 +2,23 @@
 
 This repository contains case studies and projects completed as part of the Springboard Data Science Career Track Bootcamp.
 
-| Table of Contents |
+| **Table of Contents** |
 | --- |
-| Case Studies |
-| &nbsp;&nbsp;App Store Case Study |
-| &nbsp;&nbsp;Clustering (Wine Customers Case Study) |
-| &nbsp;&nbsp;Cosine Similarity |
-| &nbsp;&nbsp;Decision Tree (Coffee Case Study) |
-| &nbsp;&nbsp;Euclidean and Manhattan Distance |
-| &nbsp;&nbsp;Frequentist Stats |
-| &nbsp;&nbsp;Gradient Boosting |
-| &nbsp;&nbsp;Logistic Regression (Wine Quality Case Study) |
-| &nbsp;&nbsp;Linear Regression (Heart Disease Case Study) |
-| &nbsp;&nbsp;London Housing Case Study |
-| &nbsp;&nbsp;Random Forest (Covid Case Study) |
-| Mini Projects |
-| &nbsp;&nbsp;API Mini Project |
-| &nbsp;&nbsp;SQL Mini Project |
+| **1. [Case Studies](#case-studies)** |
+| &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Wine Customers Case Study)](#clustering-wine-customers-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Case Study)](#decision-tree-coffee-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Stats](#frequentist-stats) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Gradient Boosting](#gradient-boosting) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Logistic Regression (Wine Quality Case Study)](#logistic-regression-wine-quality-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[London Housing Case Study](#london-housing-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Random Forest (Covid Case Study)](#random-forest-covid-case-study) |
+| **2. [Mini Projects](#mini-projects)** |
+| &nbsp;&nbsp;&nbsp;&nbsp;[API Mini Project](#api-mini-project) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[SQL Mini Project](#sql-mini-project) |
 
 ## Case Studies
 
