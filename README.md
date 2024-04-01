@@ -70,50 +70,65 @@ This repository contains case studies and projects completed as part of the Spri
 - [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
 ### Gradient Boosting
-- Implemented Gradient Boosting models to predict customer churn.
-- Tuned hyperparameters to optimize model performance.
-- Evaluated model using metrics such as accuracy, precision, recall, and F1 score.
+- Explored the concept of gradient boosting using decision trees as base predictors.
+- Demonstrated the process of fitting a series of decision trees on residual errors.
+- Evaluated model performance with multiple learning rates and calculated the ROC curve.
 - Libraries: Pandas, Scikit-learn, Matplotlib.
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient_Boosting_Case_Study.ipynb)
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
 
 ### Linear Regression (Wine Quality Case Study)
-- Analyzed factors affecting wine quality using Linear Regression.
-- Performed feature selection and engineering to improve model accuracy.
-- Visualized relationships between features and target variable.
-- Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn.
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Linear_Regression_Wine_Quality_Case_Study.ipynb)
+- Conducted a comprehensive regression analysis to predict alcohol levels in wine.
+- Performed both univariate and multivariate analysis to iterate towards an accurate model.
+- Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
+- Developed multiple linear regression models, iterating to improve accuracy and reduce redundancy.
+- Evaluated models based on R-squared, AIC, and BIC metrics, concluding with a reflection on the best performing model.
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, and Scikit-learn.
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
 ### Logistic Regression (Heart Disease Case Study)
-- Utilized Logistic Regression to predict the presence of heart disease in patients.
-- Conducted feature engineering and model evaluation using ROC curve and AUC.
-- Explored model interpretability through coefficients.
+- Introduced Logistic Regression as a fundamental algorithm for classification problems.
+- Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
+- Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
+- Utilized libraries such as scikit-learn for model building and matplotlib for data visualization.
+- Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
 - Libraries: Pandas, Scikit-learn, Matplotlib, NumPy.
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic_Regression_Heart_Disease_Case_Study.ipynb)
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
 ### London Housing Case Study
 - Investigated trends in London's housing market.
 - Analyzed price movements and factors influencing housing prices.
 - Utilized time series analysis for forecasting future prices.
-- Libraries: Pandas, Matplotlib, Seaborn, Statsmodels.
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/London_Housing_Case_Study.ipynb)
+- Conducted exploratory data analysis (EDA) to understand the impact of the 2008 financial crisis on London's housing market.
+- Applied statistical tests to explore the relationship between pre-crisis prices and crisis recovery time.
+- Employed Random Forest predictions to forecast 2024 property values based on borough, season, and other features.
+- Demonstrated the use of polynomial fitting and ordinary least squares regression to model the relationship between housing prices and recovery times post-crisis.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`.
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
 
 ### Random Forest (Covid Case Study)
 - Applied Random Forest algorithm to predict COVID-19 infection rates.
 - Feature importance analysis to identify key predictors of infection rates.
 - Evaluated model performance with cross-validation.
-- Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn.
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/Random_Forest_Covid_Case_Study.ipynb)
+- Demonstrated Random Forest's ability to handle highly correlated features and its efficiency in feature importance investigation.
+- Highlighted Random Forest as a preferred choice for decision trees, especially in multiclass classifications.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`.
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
 ## Projects
 
 ### API Mini Project
 - Developed a Python application to interact with a public API.
 - Implemented data retrieval, processing, and visualization functionalities.
-- Libraries: Requests, JSON, Pandas, Matplotlib.
-- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Mini%20Projects/API%20Mini%20Project/API_Mini_Project.ipynb)
+- Focused on equities data from the Frankfurt Stock Exchange (FSE), specifically analyzing the stock prices of Carl Zeiss Meditec (ticker AFX_X) for the year 2017.
+- Utilized the `requests` package for API calls and handled data in native Python data structures, with an emphasis on dictionaries.
+- Calculated various statistics from the stock data, including the highest and lowest opening prices, the largest change in one day, the largest change between any two days, average daily trading volume, and median trading volume for 2017.
+- Libraries: `os`, `dotenv`, `requests`, `pandas`, `json`.
+- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
 
 ### SQL Mini Project
 - Performed data extraction and manipulation using SQL queries.
 - Analyzed data from a relational database to answer business questions.
+- Tasks included identifying facilities with total revenue less than 1000, producing a report of members and their recommenders, finding facilities with their usage by members (excluding guests), and analyzing facility usage by month.
+- Utilized SQLite for database management and pandas for data manipulation and presentation.
 - Tools: SQL, SQLite, Jupyter Notebook.
-- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Mini%20Projects/SQL%20Mini%20Project/SQL_Mini_Project.ipynb)
+- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/SQL%20Mini%20Project/SQLite%20notebook.ipynb)
