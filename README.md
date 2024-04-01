@@ -10,7 +10,7 @@ This repository contains case studies and projects completed as part of the Spri
 | &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Case Study)](#decision-tree-coffee-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Stats](#frequentist-stats) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Inference](#frequentist-inference) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Gradient Boosting](#gradient-boosting) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Logistic Regression (Wine Quality Case Study)](#logistic-regression-wine-quality-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study) |
@@ -35,7 +35,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Conducted data wrangling, K-Means clustering, and visualized clusters with PCA.
 - Used the Elbow, Silhouette, and Gap statistic methods to choose K.
 - Analyzed and visualized cluster distributions for different features.
-- Libraries used: Pandas, Scikit-learn, Matplotlib, Seaborn.
+- Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn.
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ### Cosine Similarity
@@ -52,8 +52,14 @@ This repository contains case studies and projects completed as part of the Spri
 - Libraries: Pandas, Scikit-learn, Matplotlib
 
 ### Euclidean and Manhattan Distance
+- Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
+- Visualized the distribution of distances through histograms.
+- Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
+- Libraries: NumPy, Pandas, Matplotlib.
 
 ### Frequentist Stats
+- Introduces the basics of Frequentist inference, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
+- Libraries: NumPy, Pandas, Matplotlib.
 
 ### Gradient Boosting
 
