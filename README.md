@@ -57,8 +57,11 @@ This repository contains case studies and projects completed as part of the Spri
 - Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
 - Libraries: NumPy, Pandas, Matplotlib.
 
-### Frequentist Stats
-- Introduces the basics of Frequentist inference, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
+### Frequentist Inference
+- Applied Frequentist inference to real-world data, addressing practical business questions for a hospital, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
+- Explored the Central Limit Theorem and its implications.
+- Estimated population mean and standard deviation from a sample.
+- Calculated confidence intervals.
 - Libraries: NumPy, Pandas, Matplotlib.
 
 ### Gradient Boosting
