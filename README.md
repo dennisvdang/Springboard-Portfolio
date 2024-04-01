@@ -30,6 +30,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Conducted a Permutation test for hypothesis testing.
 - Concluded that platform impacts ratings, recommending Google Play.
 - Libraries: NumPy, Matplotlib, SciPy.
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
 ### Clustering (Wine Customers Case Study)
 - Explored customer segmentation using K-Means clustering.
