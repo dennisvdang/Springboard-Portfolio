@@ -1,7 +1,5 @@
 # Springboard Data Science Portfolio
 
-This repository contains a diverse range of data science projects and case studies completed as part of the Springboard Data Science Career Track.
-
 | **Table of Contents** |
 | --- |
 | **Case Studies** |
