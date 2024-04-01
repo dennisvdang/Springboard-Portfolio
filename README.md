@@ -1,6 +1,28 @@
 # Springboard Data Science Career Track Portfolio
 
-This repository contains case studies and projects completed as part of the Springboard Data Science Career Track Bootcamp.
+This repository contains a diverse range of data science projects and case studies completed as part of the Springboard Data Science Career Track. The mini-projects utilize various data science methodologies, tools, and techniques, covering the entire data science pipeline from data acquisition and cleaning to modeling, evaluation, and visualization. Key methodologies and concepts covered include:
+- Data Wrangling and Cleaning
+- Exploratory Data Analysis (EDA)
+- Machine Learning (Supervised and Unsupervised)
+  - Linear Regression
+  - Logistic Regression
+  - Decision Trees
+  - Random Forests
+  - Gradient Boosting
+  - K-Means Clustering
+- Statistical Analysis and Inference
+  - Hypothesis Testing
+  - Permutation Tests
+  - Frequentist Inference
+  - Central Limit Theorem
+  - Confidence Intervals
+- Time Series Analysis and Forecasting
+- Feature Importance and Selection
+- Model Evaluation and Validation
+  - Cross-Validation
+  - Accuracy, Precision, Recall, ROC Curves
+  - R-squared, AIC, BIC
+- Data Visualization
 
 | **Table of Contents** |
 | --- |
@@ -130,5 +152,5 @@ This repository contains case studies and projects completed as part of the Spri
 - Analyzed data from a relational database to answer business questions.
 - Tasks included identifying facilities with total revenue less than 1000, producing a report of members and their recommenders, finding facilities with their usage by members (excluding guests), and analyzing facility usage by month.
 - Utilized SQLite for database management and pandas for data manipulation and presentation.
-- Tools: SQL, SQLite, Jupyter Notebook.
+- Tools: `SQL`, `SQLite`, `Pandas`
 - [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/SQL%20Mini%20Project/SQLite%20notebook.ipynb)
