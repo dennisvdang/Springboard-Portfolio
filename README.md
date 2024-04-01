@@ -1,28 +1,6 @@
 # Springboard Data Science Career Track Portfolio
 
-This repository contains a diverse range of data science projects and case studies completed as part of the Springboard Data Science Career Track. The mini-projects utilize various data science methodologies, tools, and techniques, covering the entire data science pipeline from data acquisition and cleaning to modeling, evaluation, and visualization. Key methodologies and concepts covered include:
-- Data Wrangling and Cleaning
-- Exploratory Data Analysis (EDA)
-- Machine Learning (Supervised and Unsupervised)
-  - Linear Regression
-  - Logistic Regression
-  - Decision Trees
-  - Random Forests
-  - Gradient Boosting
-  - K-Means Clustering
-- Statistical Analysis and Inference
-  - Hypothesis Testing
-  - Permutation Tests
-  - Frequentist Inference
-  - Central Limit Theorem
-  - Confidence Intervals
-- Time Series Analysis and Forecasting
-- Feature Importance and Selection
-- Model Evaluation and Validation
-  - Cross-Validation
-  - Accuracy, Precision, Recall, ROC Curves
-  - R-squared, AIC, BIC
-- Data Visualization
+This repository contains a diverse range of data science projects and case studies completed as part of the Springboard Data Science Career Track.
 
 | **Table of Contents** |
 | --- |
