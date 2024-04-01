@@ -81,7 +81,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Performed both univariate and multivariate analysis to iterate towards an accurate model.
 - Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
 - Developed multiple linear regression models, iterating to improve accuracy and reduce redundancy.
-- Evaluated models based on R-squared, AIC, and BIC metrics, concluding with a reflection on the best performing model.
+- Evaluated models based on R-squared, AIC, and BIC metrics.
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
