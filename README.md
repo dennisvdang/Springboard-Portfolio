@@ -27,7 +27,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
 - Conducted a Permutation test for hypothesis testing.
 - Concluded that platform impacts ratings, recommending Google Play.
-- Libraries: NumPy, Matplotlib, SciPy.
+- Libraries: `NumPy`, `Matplotlib`, `SciPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
 ### Clustering (Wine Customers Case Study)
@@ -35,13 +35,13 @@ This repository contains case studies and projects completed as part of the Spri
 - Conducted data wrangling, K-Means clustering, and visualized clusters with PCA.
 - Used the Elbow, Silhouette, and Gap statistic methods to choose K.
 - Analyzed and visualized cluster distributions for different features.
-- Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ### Cosine Similarity
 - Used cosine similarity to compare numeric data and text datasets.
 - Calculated similarity measures for sentences/paragraphs.
-- Libraries: NumPy, Pandas, Matplotlib, Scipy, Scikit-learn.
+- Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
 ### Decision Tree (Coffee Case Study)
@@ -50,14 +50,14 @@ This repository contains case studies and projects completed as part of the Spri
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
 - Concluded that the single decision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
-- Libraries: Pandas, Scikit-learn, Matplotlib
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Decision%20Tree%20(Coffee%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 ### Euclidean and Manhattan Distance
 - Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
 - Visualized the distribution of distances through histograms.
 - Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
-- Libraries: NumPy, Pandas, Matplotlib.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
 
 ### Frequentist Inference
@@ -65,7 +65,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Explored the Central Limit Theorem and its implications.
 - Estimated population mean and standard deviation from a sample.
 - Calculated confidence intervals.
-- Libraries: NumPy, Pandas, Matplotlib.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`
 - [Link to Case Study (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
 - [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
@@ -73,7 +73,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Explored the concept of gradient boosting using decision trees as base predictors.
 - Demonstrated the process of fitting a series of decision trees on residual errors.
 - Evaluated model performance with multiple learning rates and calculated the ROC curve.
-- Libraries: Pandas, Scikit-learn, Matplotlib.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
 
 ### Linear Regression (Wine Quality Case Study)
@@ -82,7 +82,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
 - Developed multiple linear regression models, iterating to improve accuracy and reduce redundancy.
 - Evaluated models based on R-squared, AIC, and BIC metrics, concluding with a reflection on the best performing model.
-- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, and Scikit-learn.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
 ### Logistic Regression (Heart Disease Case Study)
@@ -91,7 +91,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
 - Utilized libraries such as scikit-learn for model building and matplotlib for data visualization.
 - Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
-- Libraries: Pandas, Scikit-learn, Matplotlib, NumPy.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
 ### London Housing Case Study
@@ -102,7 +102,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Applied statistical tests to explore the relationship between pre-crisis prices and crisis recovery time.
 - Employed Random Forest predictions to forecast 2024 property values based on borough, season, and other features.
 - Demonstrated the use of polynomial fitting and ordinary least squares regression to model the relationship between housing prices and recovery times post-crisis.
-- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
 
 ### Random Forest (Covid Case Study)
@@ -111,7 +111,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Evaluated model performance with cross-validation.
 - Demonstrated Random Forest's ability to handle highly correlated features and its efficiency in feature importance investigation.
 - Highlighted Random Forest as a preferred choice for decision trees, especially in multiclass classifications.
-- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
 ## Projects
@@ -122,7 +122,7 @@ This repository contains case studies and projects completed as part of the Spri
 - Focused on equities data from the Frankfurt Stock Exchange (FSE), specifically analyzing the stock prices of Carl Zeiss Meditec (ticker AFX_X) for the year 2017.
 - Utilized the `requests` package for API calls and handled data in native Python data structures, with an emphasis on dictionaries.
 - Calculated various statistics from the stock data, including the highest and lowest opening prices, the largest change in one day, the largest change between any two days, average daily trading volume, and median trading volume for 2017.
-- Libraries: `os`, `dotenv`, `requests`, `pandas`, `json`.
+- Libraries: `os`, `dotenv`, `requests`, `pandas`, `json`
 - [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
 
 ### SQL Mini Project
