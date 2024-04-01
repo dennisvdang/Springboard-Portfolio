@@ -4,7 +4,7 @@ This repository contains case studies and projects completed as part of the Spri
 
 | **Table of Contents** |
 | --- |
-| **1. [Case Studies](#case-studies)** |
+| **Case Studies** |
 | &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Wine Customers Case Study)](#clustering-wine-customers-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
@@ -16,7 +16,7 @@ This repository contains case studies and projects completed as part of the Spri
 | &nbsp;&nbsp;&nbsp;&nbsp;[Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[London Housing Case Study](#london-housing-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Random Forest (Covid Case Study)](#random-forest-covid-case-study) |
-| **2. [Mini Projects](#mini-projects)** |
+| **Mini Projects** |
 | &nbsp;&nbsp;&nbsp;&nbsp;[API Mini Project](#api-mini-project) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[SQL Mini Project](#sql-mini-project) |
 
