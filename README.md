@@ -18,13 +18,12 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[API Mini Project](#api-mini-project) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[SQL Mini Project](#sql-mini-project) |
 
-## Case Studies
+## Case Study Summaries
 
 ### Clustering (Customer Segmentation Case Study)
 
 - **Objective:** Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies.
-- **Methodology:** 
-
+**Methodology:**
 - Cleaned and transformed data to create a matrix of customer responses to different offers.
 
 - Determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods.
