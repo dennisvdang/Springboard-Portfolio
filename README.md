@@ -33,7 +33,7 @@
 - Visualized the customer segments in a 2D spaceusing Principal Component Analysis (PCA)
 - Analyzed the distribution of key features across the identified clusters and revealed the characteristics of each customer segment
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ### Decision Tree (Coffee Customer Prediction Case Study)
 
@@ -41,7 +41,7 @@
 
 - Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee.
 
-#### Methodology 
+#### Methodology
 
 - Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
@@ -55,7 +55,7 @@
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
 - Concluded that the single decision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Decision%20Tree%20(Coffee%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 ### App Store Case Study
 - Investigated if Apple Store apps received better reviews than Google Play apps.
