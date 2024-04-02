@@ -6,7 +6,7 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Customer Segmentation Case Study)](#clustering-customer-segmentation-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Case Study)](#decision-tree-coffee-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Customer Prediction Case Study)](#decision-tree-coffee-customer-prediction-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Inference](#frequentist-inference) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Gradient Boosting](#gradient-boosting) |
@@ -49,9 +49,22 @@
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
-### Decision Tree (Coffee Case Study)
-- Explored decision tree modeling to predict customer purchases of a new specialty coffee product.
-- Analyzed decision paths and feature importance to understand key drivers of customer purchasing behavior.
+### Decision Tree (Coffee Customer Prediction Case Study)
+
+#### Objective
+
+- Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee.
+
+#### Methodology 
+
+- Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
+- Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
+
+1. Default Decision Tree Model
+2. Decision Tree with Max Depth = 3
+3. Decision Tree with Min Samples Split = 10
+4. Decision Tree with Min Samples Leaf = 5
+
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
 - Concluded that the single decision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
