@@ -32,7 +32,7 @@
 
 - Cleaned and transformed data to create a matrix of customer responses to different offers
 - Applied k-means clustering and determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods
-- Visualized the customer segments in a 2D spaceusing Principal Component Analysis (PCA)
+- Visualized the customer segments in a 2D space using Principal Component Analysis (PCA)
 - Analyzed the distribution of key features across the identified clusters and revealed the characteristics of each customer segment
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
