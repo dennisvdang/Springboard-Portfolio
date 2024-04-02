@@ -3,10 +3,10 @@
 | **Table of Contents** |
 | --- |
 | **Case Studies** |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Customer Segmentation Case Study)](#clustering-customer-segmentation-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Customer Prediction Case Study)](#decision-tree-coffee-customer-prediction-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Inference](#frequentist-inference) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Gradient Boosting](#gradient-boosting) |
@@ -35,20 +35,6 @@
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
-### App Store Case Study
-- Investigated if Apple Store apps received better reviews than Google Play apps.
-- Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
-- Conducted a Permutation test for hypothesis testing.
-- Concluded that platform impacts ratings, recommending Google Play.
-- Libraries: `NumPy`, `Matplotlib`, `SciPy`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
-
-### Cosine Similarity
-- Used cosine similarity to compare numeric data and text datasets.
-- Calculated similarity measures for sentences/paragraphs.
-- Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
-
 ### Decision Tree (Coffee Customer Prediction Case Study)
 
 #### Objective
@@ -70,6 +56,20 @@
 - Concluded that the single decision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Decision%20Tree%20(Coffee%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+### App Store Case Study
+- Investigated if Apple Store apps received better reviews than Google Play apps.
+- Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
+- Conducted a Permutation test for hypothesis testing.
+- Concluded that platform impacts ratings, recommending Google Play.
+- Libraries: `NumPy`, `Matplotlib`, `SciPy`
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
+
+### Cosine Similarity
+- Used cosine similarity to compare numeric data and text datasets.
+- Calculated similarity measures for sentences/paragraphs.
+- Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
 ### Euclidean and Manhattan Distance
 - Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
