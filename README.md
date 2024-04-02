@@ -35,6 +35,8 @@
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
+---
+
 ### Decision Tree (Coffee Customer Prediction Case Study)
 
 #### Objective
@@ -53,9 +55,11 @@
 
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
-- Concluded that the single decision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
+- Concluded that the single dec1ision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+---
 
 ### App Store Case Study
 - Investigated if Apple Store apps received better reviews than Google Play apps.
