@@ -48,10 +48,10 @@
 - Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
 
-1. Default Decision Tree Model
-2. Decision Tree with Max Depth = 3
-3. Decision Tree with Min Samples Split = 10
-4. Decision Tree with Min Samples Leaf = 5
+    1. Default Decision Tree Model
+    2. Decision Tree with Max Depth = 3
+    3. Decision Tree with Min Samples Split = 10
+    4. Decision Tree with Min Samples Leaf = 5
 
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
