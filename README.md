@@ -22,10 +22,13 @@
 
 ### Clustering (Customer Segmentation Case Study)
 
-**Objective:** 
-Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies.
-**Methodology:**
-Cleaned and transformed data to create a matrix of customer responses to different offers.
+#### Objective
+
+- Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies.
+
+#### Methodology
+
+- Cleaned and transformed data to create a matrix of customer responses to different offers.
 
 - Determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods.
 - Visualized the customer segments using Principal Component Analysis (PCA).
