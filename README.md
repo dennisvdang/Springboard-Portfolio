@@ -20,6 +20,8 @@
 
 ## Case Study Summaries
 
+---
+
 ### Clustering (Customer Segmentation Case Study)
 
 #### Objective
@@ -69,11 +71,15 @@
 - Libraries: `NumPy`, `Matplotlib`, `SciPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
+---
+
 ### Cosine Similarity
 - Used cosine similarity to compare numeric data and text datasets.
 - Calculated similarity measures for sentences/paragraphs.
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
+
+---
 
 ### Euclidean and Manhattan Distance
 - Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
@@ -81,6 +87,8 @@
 - Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
+
+---
 
 ### Frequentist Inference
 - Applied Frequentist inference to real-world data, addressing practical business questions for a hospital, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
@@ -91,12 +99,16 @@
 - [Link to Case Study (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
 - [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
+---
+
 ### Gradient Boosting
 - Explored the concept of gradient boosting using decision trees as base predictors.
 - Demonstrated the process of fitting a series of decision trees on residual errors.
 - Evaluated model performance with multiple learning rates and calculated the ROC curve.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
+
+---
 
 ### Linear Regression (Wine Quality Case Study)
 - Conducted a comprehensive regression analysis to predict alcohol levels in wine.
@@ -107,6 +119,8 @@
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
+---
+
 ### Logistic Regression (Heart Disease Case Study)
 - Introduced Logistic Regression as a fundamental algorithm for classification problems.
 - Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
@@ -115,6 +129,8 @@
 - Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
+
+---
 
 ### London Housing Case Study
 - Investigated trends in London's housing market.
@@ -127,6 +143,8 @@
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
 
+---
+
 ### Random Forest (Covid Case Study)
 - Applied Random Forest algorithm to predict COVID-19 infection rates.
 - Feature importance analysis to identify key predictors of infection rates.
@@ -135,6 +153,8 @@
 - Highlighted Random Forest as a preferred choice for decision trees, especially in multiclass classifications.
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
+
+---
 
 ## Projects
 
