@@ -3,8 +3,8 @@
 | **Table of Contents** |
 | --- |
 | **Case Studies** |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Customer Segmentation Case Study)](#clustering-customer-segmentation-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Clustering (Wine Customers Case Study)](#clustering-wine-customers-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Decision Tree (Coffee Case Study)](#decision-tree-coffee-case-study) |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
@@ -20,6 +20,19 @@
 
 ## Case Studies
 
+### Clustering (Customer Segmentation Case Study)
+
+- **Objective:** Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies.
+- **Methodology:** 
+
+- Cleaned and transformed data to create a matrix of customer responses to different offers.
+
+- Determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods.
+- Visualized the customer segments using Principal Component Analysis (PCA).
+- Analyzed the distribution of key features across the identified clusters and revealed the characteristics of each customer segment.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
+
 ### App Store Case Study
 - Investigated if Apple Store apps received better reviews than Google Play apps.
 - Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
@@ -27,14 +40,6 @@
 - Concluded that platform impacts ratings, recommending Google Play.
 - Libraries: `NumPy`, `Matplotlib`, `SciPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
-
-### Clustering (Wine Customers Case Study)
-- Explored customer segmentation using K-Means clustering.
-- Conducted data wrangling, K-Means clustering, and visualized clusters with PCA.
-- Used the Elbow, Silhouette, and Gap statistic methods to choose K.
-- Analyzed and visualized cluster distributions for different features.
-- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Clustering%20(Wine%20Customers%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ### Cosine Similarity
 - Used cosine similarity to compare numeric data and text datasets.
