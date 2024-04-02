@@ -22,7 +22,7 @@
 
 ---
 
-### Clustering (Customer Segmentation Case Study)
+### Customer Segmentation (Clustering Case Study)
 
 #### Objective
 
