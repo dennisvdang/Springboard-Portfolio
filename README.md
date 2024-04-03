@@ -24,6 +24,14 @@
 </ul>
 </details>
 
+### API Mini Project <a id="api-mini-project"></a>
+
+- **Case Studies**
+  - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
+  - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
+  - [App Store Case Study](#app-store-case-study)
+  
+
 | **Table of Contents** |
 | --- |
 | **Case Studies** |
