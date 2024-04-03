@@ -1,60 +1,29 @@
 # Springboard Data Science Portfolio
 
-<details>
-<summary><strong>Case Studies</strong></summary>
-<ul>
-<li><a href="#customer-segmentation-clustering-case-study">Customer Segmentation (Clustering Case Study)</a></li>
-<li><a href="#customer-purchasing-prediction-decision-tree-case-study">Customer Purchasing Prediction (Decision Tree Case Study)</a></li>
-<li><a href="#app-store-case-study">App Store Case Study</a></li>
-<li><a href="#cosine-similarity">Cosine Similarity</a></li>
-<li><a href="#euclidean-and-manhattan-distance">Euclidean and Manhattan Distance</a></li>
-<li><a href="#frequentist-inference">Frequentist Inference</a></li>
-<li><a href="#gradient-boosting">Gradient Boosting</a></li>
-<li><a href="#logistic-regression-wine-quality-case-study">Logistic Regression (Wine Quality Case Study)</a></li>
-<li><a href="#linear-regression-heart-disease-case-study">Linear Regression (Heart Disease Case Study)</a></li>
-<li><a href="#london-housing-case-study">London Housing Case Study</a></li>
-<li><a href="#random-forest-covid-case-study">Random Forest (Covid Case Study)</a></li>
-</ul>
-</details>
-<details>
-<summary><strong>Mini Projects</strong></summary>
-<ul>
-<li><a href="#api-mini-project">API Mini Project</a></li>
-<li><a href="#sql-mini-project">SQL Mini Project</a></li>
-</ul>
-</details>
+Welcome to my Springboard Data Science Portfolio! This repository showcases a collection of case studies and mini-projects that I have completed as part of the Springboard Data Science course. The case studies cover a wide range of topics, including customer segmentation, predictive modeling, time series analysis, and more. The mini-projects are demonstrations using industry-standard tools and techniques, such as APIs and SQL databases. There is also a guided capstone in here where I analyze data from a business client to provide pricing recommendations.
 
-### API Mini Project <a id="api-mini-project"></a>
-
+# Table of Contents
 - **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
   - [App Store Case Study](#app-store-case-study)
-  
-
-| **Table of Contents** |
-| --- |
-| **Case Studies** |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[App Store Case Study](#app-store-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Cosine Similarity](#cosine-similarity) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Frequentist Inference](#frequentist-inference) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Gradient Boosting](#gradient-boosting) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Logistic Regression (Wine Quality Case Study)](#logistic-regression-wine-quality-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[London Housing Case Study](#london-housing-case-study) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Random Forest (Covid Case Study)](#random-forest-covid-case-study) |
-| **Mini Projects** |
-| &nbsp;&nbsp;&nbsp;&nbsp;[API Mini Project](#api-mini-project) |
-| &nbsp;&nbsp;&nbsp;&nbsp;[SQL Mini Project](#sql-mini-project) |
-
-## Case Study Summaries
+  - [Cosine Similarity](#cosine-similarity)
+  - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
+  - [Frequentist Inference](#frequentist-inference)
+  - [Gradient Boosting](#gradient-boosting)
+  - [Logistic Regression (Wine Quality Case Study)](#logistic-regression-wine-quality-case-study)
+  - [Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study)
+  - [London Housing Case Study](#london-housing-case-study)
+  - [Random Forest (Covid Case Study)](#random-forest-covid-case-study)
+- **Mini Projects**
+  - [API Mini Project](#api-mini-project)
+  - [SQL Mini Project](#sql-mini-project)
+- **Capstone**
+  - [Guided Capstone](#guided-capstone)
 
 ---
 
-### Customer Segmentation (Clustering Case Study)
+## Customer Segmentation (Clustering Case Study)
 
 #### Objective
 
@@ -69,9 +38,7 @@
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
----
-
-### Decision Tree (Coffee Customer Prediction Case Study)
+## Decision Tree (Coffee Customer Prediction Case Study)
 
 #### Objective
 
@@ -91,9 +58,7 @@
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
----
-
-### App Store Case Study
+## App Store Case Study
 - Investigated if Apple Store apps received better reviews than Google Play apps.
 - Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
 - Conducted a Permutation test for hypothesis testing.
@@ -101,26 +66,20 @@
 - Libraries: `NumPy`, `Matplotlib`, `SciPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
----
-
-### Cosine Similarity
+## Cosine Similarity
 - Used cosine similarity to compare numeric data and text datasets.
 - Calculated similarity measures for sentences/paragraphs.
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
----
-
-### Euclidean and Manhattan Distance
+## Euclidean and Manhattan Distance
 - Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
 - Visualized the distribution of distances through histograms.
 - Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
 
----
-
-### Frequentist Inference
+## Frequentist Inference
 - Applied Frequentist inference to real-world data, addressing practical business questions for a hospital, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
 - Explored the Central Limit Theorem and its implications.
 - Estimated population mean and standard deviation from a sample.
@@ -129,18 +88,14 @@
 - [Link to Case Study (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
 - [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
----
-
-### Gradient Boosting
+## Gradient Boosting
 - Explored the concept of gradient boosting using decision trees as base predictors.
 - Demonstrated the process of fitting a series of decision trees on residual errors.
 - Evaluated model performance with multiple learning rates and calculated the ROC curve.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
 
----
-
-### Linear Regression (Wine Quality Case Study)
+## Linear Regression (Wine Quality Case Study)
 - Conducted a comprehensive regression analysis to predict alcohol levels in wine.
 - Performed both univariate and multivariate analysis to iterate towards an accurate model.
 - Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
@@ -149,9 +104,8 @@
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
----
 
-### Logistic Regression (Heart Disease Case Study)
+## Logistic Regression (Heart Disease Case Study)
 - Introduced Logistic Regression as a fundamental algorithm for classification problems.
 - Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
 - Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
@@ -160,9 +114,7 @@
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
----
-
-### London Housing Case Study
+## London Housing Case Study
 - Investigated trends in London's housing market.
 - Analyzed price movements and factors influencing housing prices.
 - Utilized time series analysis for forecasting future prices.
@@ -173,9 +125,7 @@
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
 
----
-
-### Random Forest (Covid Case Study)
+## Random Forest (Covid Case Study)
 - Applied Random Forest algorithm to predict COVID-19 infection rates.
 - Feature importance analysis to identify key predictors of infection rates.
 - Evaluated model performance with cross-validation.
@@ -184,11 +134,8 @@
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
----
+## API Mini Project
 
-## Projects
-
-### API Mini Project
 - Developed a Python application to interact with a public API.
 - Implemented data retrieval, processing, and visualization functionalities.
 - Focused on equities data from the Frankfurt Stock Exchange (FSE), specifically analyzing the stock prices of Carl Zeiss Meditec (ticker AFX_X) for the year 2017.
@@ -197,7 +144,8 @@
 - Libraries: `os`, `dotenv`, `requests`, `pandas`, `json`
 - [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
 
-### SQL Mini Project
+## SQL Mini Project
+
 - Performed data extraction and manipulation using SQL queries.
 - Analyzed data from a relational database to answer business questions.
 - Tasks included identifying facilities with total revenue less than 1000, producing a report of members and their recommenders, finding facilities with their usage by members (excluding guests), and analyzing facility usage by month.
