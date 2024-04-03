@@ -1,8 +1,13 @@
 # Springboard Data Science Portfolio
 
-Welcome to my Springboard Data Science Portfolio! This repository showcases a collection of case studies and mini-projects that I have completed as part of the Springboard Data Science course. The case studies cover a wide range of topics, including customer segmentation, predictive modeling, time series analysis, and more. The mini-projects are demonstrations using industry-standard tools and techniques, such as APIs and SQL databases. There is also a guided capstone in here where I analyze data from a business client to provide pricing recommendations.
+Welcome to my Springboard Data Science Portfolio!
 
-# Table of Contents
+This repository showcases a collection of case studies and mini-projects that I have completed as part of the Springboard Data Science program.
+
+The case studies cover a wide range of topics, including customer segmentation, predictive modeling, time series analysis, and more. The mini-projects are demonstrations using industry-standard tools and techniques, such as APIs and SQL databases. There is also a guided capstone in here where I analyze data from a business client to provide pricing recommendations. This README contains a summary of each case study and project, as well as a link to the full notebook. Be sure to check out the other pinned repositories for my other projects and capstones.
+
+## Table of Contents
+
 - **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
@@ -11,8 +16,8 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
   - [Frequentist Inference](#frequentist-inference)
   - [Gradient Boosting](#gradient-boosting)
-  - [Logistic Regression (Wine Quality Case Study)](#logistic-regression-wine-quality-case-study)
-  - [Linear Regression (Heart Disease Case Study)](#linear-regression-heart-disease-case-study)
+  - [Linear Regression (Wine Quality Case Study)](#linear-regression-wine-quality-case-study)
+  - [Logistic Regression (Heart Disease Case Study)](#logistic-regression-heart-disease-case-study)
   - [London Housing Case Study](#london-housing-case-study)
   - [Random Forest (Covid Case Study)](#random-forest-covid-case-study)
 - **Mini Projects**
@@ -25,11 +30,11 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 
 ## Customer Segmentation (Clustering Case Study)
 
-#### Objective
+### Objective
 
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
 
-#### Methodology
+### Methodology
 
 - Cleaned and transformed data to create a matrix of customer responses to different offers
 - Applied k-means clustering and determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods
@@ -38,13 +43,13 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
-## Decision Tree (Coffee Customer Prediction Case Study)
+## Customer Purchasing Prediction (Decision Tree Case Study)
 
-#### Objective
+### Objective
 
 - Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee.
 
-#### Methodology
+### Methodology
 
 - Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
@@ -59,6 +64,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 ## App Store Case Study
+
 - Investigated if Apple Store apps received better reviews than Google Play apps.
 - Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
 - Conducted a Permutation test for hypothesis testing.
@@ -67,12 +73,14 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
 ## Cosine Similarity
+
 - Used cosine similarity to compare numeric data and text datasets.
 - Calculated similarity measures for sentences/paragraphs.
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
 ## Euclidean and Manhattan Distance
+
 - Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
 - Visualized the distribution of distances through histograms.
 - Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
@@ -80,6 +88,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
 
 ## Frequentist Inference
+
 - Applied Frequentist inference to real-world data, addressing practical business questions for a hospital, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
 - Explored the Central Limit Theorem and its implications.
 - Estimated population mean and standard deviation from a sample.
@@ -89,6 +98,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
 ## Gradient Boosting
+
 - Explored the concept of gradient boosting using decision trees as base predictors.
 - Demonstrated the process of fitting a series of decision trees on residual errors.
 - Evaluated model performance with multiple learning rates and calculated the ROC curve.
@@ -96,6 +106,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
 
 ## Linear Regression (Wine Quality Case Study)
+
 - Conducted a comprehensive regression analysis to predict alcohol levels in wine.
 - Performed both univariate and multivariate analysis to iterate towards an accurate model.
 - Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
@@ -104,8 +115,8 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
-
 ## Logistic Regression (Heart Disease Case Study)
+
 - Introduced Logistic Regression as a fundamental algorithm for classification problems.
 - Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
 - Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
@@ -115,6 +126,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
 ## London Housing Case Study
+
 - Investigated trends in London's housing market.
 - Analyzed price movements and factors influencing housing prices.
 - Utilized time series analysis for forecasting future prices.
@@ -126,6 +138,7 @@ Welcome to my Springboard Data Science Portfolio! This repository showcases a co
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
 
 ## Random Forest (Covid Case Study)
+
 - Applied Random Forest algorithm to predict COVID-19 infection rates.
 - Feature importance analysis to identify key predictors of infection rates.
 - Evaluated model performance with cross-validation.
