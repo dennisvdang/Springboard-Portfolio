@@ -1,5 +1,29 @@
 # Springboard Data Science Portfolio
 
+<details>
+<summary><strong>Case Studies</strong></summary>
+<ul>
+<li><a href="#customer-segmentation-clustering-case-study">Customer Segmentation (Clustering Case Study)</a></li>
+<li><a href="#customer-purchasing-prediction-decision-tree-case-study">Customer Purchasing Prediction (Decision Tree Case Study)</a></li>
+<li><a href="#app-store-case-study">App Store Case Study</a></li>
+<li><a href="#cosine-similarity">Cosine Similarity</a></li>
+<li><a href="#euclidean-and-manhattan-distance">Euclidean and Manhattan Distance</a></li>
+<li><a href="#frequentist-inference">Frequentist Inference</a></li>
+<li><a href="#gradient-boosting">Gradient Boosting</a></li>
+<li><a href="#logistic-regression-wine-quality-case-study">Logistic Regression (Wine Quality Case Study)</a></li>
+<li><a href="#linear-regression-heart-disease-case-study">Linear Regression (Heart Disease Case Study)</a></li>
+<li><a href="#london-housing-case-study">London Housing Case Study</a></li>
+<li><a href="#random-forest-covid-case-study">Random Forest (Covid Case Study)</a></li>
+</ul>
+</details>
+<details>
+<summary><strong>Mini Projects</strong></summary>
+<ul>
+<li><a href="#api-mini-project">API Mini Project</a></li>
+<li><a href="#sql-mini-project">SQL Mini Project</a></li>
+</ul>
+</details>
+
 | **Table of Contents** |
 | --- |
 | **Case Studies** |
@@ -49,12 +73,10 @@
 
 - Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
-
     1. Default Decision Tree Model
     2. Decision Tree with Max Depth = 3
     3. Decision Tree with Min Samples Split = 10
     4. Decision Tree with Min Samples Leaf = 5
-
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
 - Compared the performance of a single decision tree model to a Random Forest ensemble model.
 - Concluded that the single dec1ision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
