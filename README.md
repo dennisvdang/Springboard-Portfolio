@@ -6,6 +6,15 @@ This repository showcases a collection of case studies and mini-projects that I 
 
 The case studies cover a wide range of topics, including customer segmentation, predictive modeling, time series analysis, and more. The mini-projects are demonstrations using industry-standard tools and techniques, such as APIs and SQL databases. There is also a guided capstone in here where I analyze data from a business client to provide pricing recommendations. This README contains a summary of each case study and project, as well as a link to the full notebook. Be sure to check out the other pinned repositories for my other projects and capstones.
 
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+  </div>
+</div>
+
 ## Table of Contents
 
 - **Case Studies**
