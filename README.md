@@ -31,8 +31,6 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Customer Segmentation (Clustering Case Study)
 
-[Link to Customer Segmentation Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
-
 **Objective**
 
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
@@ -50,6 +48,8 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Identified distinct customer segments with varying offer preferences and purchasing behaviors
 - Demonstrated the effectiveness of k-means clustering for customer segmentation
 - Highlighted the importance of feature selection and dimensionality reduction for effective clustering and visualization
+
+[Link to Customer Segmentation Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ## Customer Purchasing Prediction (Decision Tree Case Study)
 
