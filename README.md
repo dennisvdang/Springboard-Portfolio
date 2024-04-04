@@ -5,7 +5,7 @@
 Hi! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
 
 This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
-- **Case Studies**: Case studies covering a wide range of topics and demonstrate the application of various data science techniques and algorithms.
+- **Case Studies**: Case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms.
 - **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models.
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
 - **Guided Capstone**: An end-to-end data science project experience
@@ -34,6 +34,8 @@ This portfolio is intended to demonstrate my data science capabilities and how I
   - [Guided Capstone](#guided-capstone)
 
 # Case Studies
+
+Summaries of case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms.
 
 ## Customer Segmentation (Clustering Case Study)
 
@@ -218,7 +220,9 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 [Link to Grid Search KNN Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
 
-# Summary of Case Studies Using Statistical Foundations
+# Statistical Foundations
+
+Summaries of case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models.
 
 ## Cosine Similarity
 
