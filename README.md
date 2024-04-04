@@ -19,11 +19,10 @@ The case studies cover a wide range of topics, including customer segmentation, 
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
-  - **Statistical Foundations**
-    - [App Store Case Study](#app-store-case-study)
-    - [Cosine Similarity](#cosine-similarity)
-    - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
-    - [Frequentist Inference](#frequentist-inference)
+- **Case Studies Using Statistical Foundations**
+  - [Cosine Similarity](#cosine-similarity)
+  - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
+  - [Frequentist Inference](#frequentist-inference)
 - **Mini Projects**
   - [API Mini Project](#api-mini-project)
   - [SQL Mini Project](#sql-mini-project)
@@ -213,24 +212,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 [Link to Grid Search KNN Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
 
-## App Store Case Study
-
-**Objective**
-
-- Investigate if Apple Store apps receive better reviews than Google Play apps
-
-**Methodology**
-
-- Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating
-- Conducted a Permutation test for hypothesis testing
-- Libraries: `NumPy`, `Matplotlib`, `SciPy`
-
-**Key Takeaways**
-
-- Platform impacts app ratings
-- Google Play recommended for better app reviews
-
-[Link to App Store Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
+# Summary of Case Studies Using Statistical Foundations
 
 ## Cosine Similarity
 
