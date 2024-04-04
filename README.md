@@ -13,6 +13,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
+  - [Grid Search KNN Case Study](#grid-search-knn-case-study)
   - [App Store Case Study](#app-store-case-study)
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
@@ -62,6 +63,24 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Concluded that the single dec1ision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+## Grid Search KNN Case Study
+
+### Objective
+- Optimize the hyperparameters of a K-Nearest Neighbors (KNN) classifier using grid search on the Pima Indians Diabetes dataset.
+
+### Methodology
+- Loaded and preprocessed the Pima Indians Diabetes dataset and standardize the features.
+- Implemented a loop to train KNN models with a range of neighbor values (1-9) and evaluated the training and test scores.
+- Identified the optimal number of neighbors based on the maximum test score.
+- Fit the KNN model with the optimal number of neighbors and evaluated its performance on the training and test sets.
+- Plotted the confusion matrix and printed the classification report for the optimal model.
+- Applied the grid search method to find the optimal number of estimators in a Random Forest model.
+
+### Key Takeaways
+- Grid search is an effective technique for optimizing hyperparameters of machine learning models, such as the number of neighbors in KNN and the number of estimators in Random Forest.
+- Identifying the optimal hyperparameters can significantly improve the model's performance on both the training and test datasets.
+- Visualizing the model's performance, such as through confusion matrices and classification reports, provides valuable insights into the model's strengths and weaknesses.
 
 ## App Store Case Study
 
