@@ -14,7 +14,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
   - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
-  - [COVID-19 Predictions (Random Forest Case Study)](#covid-19-predictions-random-forest-case-study)
+  - [COVID-19 Prediction (Random Forest Case Study)](#covid-19-prediction-random-forest-case-study)
   - [Wine Quality Prediction (Linear Regression Case Study)](#wine-quality-prediction-linear-regression-case-study)
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
@@ -98,7 +98,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 [Link to London Housing Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Springboard%20London%20Housing%20Case%20Study%20-%20Tier%203.ipynb)
 
-## COVID-19 Predictions (Random Forest Case Study)
+## COVID-19 Prediction (Random Forest Case Study)
 
 **Objective**s
 
@@ -142,14 +142,29 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Heart Disease Prediction (Logistic Regression Case Study)
 
-- Introduced Logistic Regression as a fundamental algorithm for classification problems.
-- Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
-- Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
-- Utilized libraries such as scikit-learn for model building and matplotlib for data visualization.
-- Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
+**Objective**
+
+- Build a logistic regression model to predict the presence of heart disease using patient health data
+
+**Methodology** 
+
+- Introduced logistic regression as a fundamental classification algorithm
+- Covered key concepts like classification, model evaluation, discriminative vs generative classifiers
+- Performed data preprocessing (handling missing values, encoding categorical variables)
+- Split the data into training and testing sets
+- Built and evaluated logistic regression models using scikit-learn
+- Explored model tuning and evaluation metrics (accuracy, precision, recall, ROC curves)
+- Visualized decision boundaries and interpreted model coefficients
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
 
-[Link to Heart Disease Predictions Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
+**Key Takeaways**
+
+- Logistic regression is a simple yet effective algorithm for binary classification problems
+- Importance of proper data preprocessing and model evaluation for classification tasks
+- Logistic regression provides interpretable models and discriminative decision boundaries
+- Need to consider multiple evaluation metrics beyond accuracy for imbalanced datasets
+
+[Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
 ## Passenger Survival Prediction (Gradient Boosting Case Study)
 
