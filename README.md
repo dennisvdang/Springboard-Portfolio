@@ -44,67 +44,103 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
+**Key Takeaways**
+
+- Identified distinct customer segments with varying offer preferences and purchasing behaviors
+- Demonstrated the effectiveness of k-means clustering for customer segmentation
+- Highlighted the importance of feature selection and dimensionality reduction for effective clustering and visualization
+
 ## Customer Purchasing Prediction (Decision Tree Case Study)
 
 **Objective**
 
-- Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee.
+- Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee
 
 **Methodology**
 
-- Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
+- Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
     1. Default Decision Tree Model
     2. Decision Tree with Max Depth = 3
     3. Decision Tree with Min Samples Split = 10
     4. Decision Tree with Min Samples Leaf = 5
-- Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics.
-- Compared the performance of a single decision tree model to a Random Forest ensemble model.
-- Concluded that the single dec1ision tree provided better predictive performance than the more complex Random Forest model, highlighting the importance of tailoring the model to the specific dataset.
+- Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics
+- Compared the performance of a single decision tree model to a Random Forest ensemble model
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+**Key Takeaways**
+
+- Identified key factors influencing customer purchasing decisions
+- Demonstrated the effectiveness of decision trees for predictive modeling
+- Highlighted the importance of model simplicity and interpretability for specific datasets
 
 ## Grid Search KNN Case Study
 
 **Objective**
+
 - Optimize the hyperparameters of a K-Nearest Neighbors (KNN) classifier using grid search on the Pima Indians Diabetes dataset.
 
 **Methodology**
+
 - Loaded and preprocessed the Pima Indians Diabetes dataset and standardize the features.
 - Implemented a loop to train KNN models with a range of neighbor values (1-9) and evaluated the training and test scores.
 - Identified the optimal number of neighbors based on the maximum test score.
 - Fit the KNN model with the optimal number of neighbors and evaluated its performance on the training and test sets.
 - Plotted the confusion matrix and printed the classification report for the optimal model.
 - Applied the grid search method to find the optimal number of estimators in a Random Forest model.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
+- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
 
-### Key Takeaways
+**Key Takeaways**
+
 - Grid search is an effective technique for optimizing hyperparameters of machine learning models, such as the number of neighbors in KNN and the number of estimators in Random Forest.
 - Identifying the optimal hyperparameters can significantly improve the model's performance on both the training and test datasets.
 - Visualizing the model's performance, such as through confusion matrices and classification reports, provides valuable insights into the model's strengths and weaknesses.
 
 ## App Store Case Study
 
-- Investigated if Apple Store apps received better reviews than Google Play apps.
-- Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating.
-- Conducted a Permutation test for hypothesis testing.
-- Concluded that platform impacts ratings, recommending Google Play.
+**Objective**
+- Investigate if Apple Store apps receive better reviews than Google Play apps
+
+**Methodology**
+- Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating
+- Conducted a Permutation test for hypothesis testing
 - Libraries: `NumPy`, `Matplotlib`, `SciPy`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
+**Key Takeaways**
+- Platform impacts app ratings
+- Google Play recommended for better app reviews
+
+
 ## Cosine Similarity
 
-- Used cosine similarity to compare numeric data and text datasets.
-- Calculated similarity measures for sentences/paragraphs.
+**Objective**
+- Use cosine similarity to compare numeric data and text datasets
+
+**Methodology**
+- Calculated similarity measures for sentences/paragraphs
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
+**Key Takeaways**
+- Cosine similarity effective for comparing numeric and text data
+- Applicable in NLP and recommendation systems
+
 ## Euclidean and Manhattan Distance
 
-- Demonstrated the calculation and comparison of Euclidean and Manhattan distances.
-- Visualized the distribution of distances through histograms.
-- Highlighted the application of these distance measures in data science, foundational for algorithms like PCA.
+**Objective**
+- Demonstrate calculation and comparison of Euclidean and Manhattan distances
+
+**Methodology**
+- Visualized distribution of distances through histograms
+- Highlighted application in data science, foundational for PCA
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
+
+**Key Takeaways**
+- Euclidean and Manhattan distances have different behaviors
 
 ## Frequentist Inference
 
