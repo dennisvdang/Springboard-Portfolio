@@ -148,7 +148,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Demonstrated the application of linear regression in predicting continuous variables
 - Identified the most elegant and economical model (rModel4) using a few predictors effectively
 
-[Link to Linear Regression Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
+[Link to Linear Regression Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
 
 ## Heart Disease Prediction (Logistic Regression Case Study)
 
@@ -174,7 +174,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Logistic regression provides interpretable models and discriminative decision boundaries
 - Need to consider multiple evaluation metrics beyond accuracy for imbalanced datasets
 
-[Link to Logistic Regression Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
+[Link to Logistic Regression Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
 
 ## Passenger Survival Prediction (Gradient Boosting Case Study)
 
