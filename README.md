@@ -32,11 +32,9 @@ The case studies cover a wide range of topics, including customer segmentation, 
 ## Customer Segmentation (Clustering Case Study)
 
 **Objective**
-
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
 
 **Methodology**
-
 - Cleaned and transformed data to create a matrix of customer responses to different offers
 - Applied k-means clustering and determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods
 - Visualized the customer segments in a 2D space using Principal Component Analysis (PCA)
