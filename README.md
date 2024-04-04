@@ -31,11 +31,11 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Customer Segmentation (Clustering Case Study)
 
-### Objective
+**Objective**
 
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
 
-### Methodology
+**Methodology**
 
 - Cleaned and transformed data to create a matrix of customer responses to different offers
 - Applied k-means clustering and determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods
@@ -190,3 +190,20 @@ The case studies cover a wide range of topics, including customer segmentation, 
 ---
 
 ## Guided Capstone
+
+### Objective
+
+- Developed a data-driven pricing model for Big Mountain Resort to optimize ski ticket prices and increase revenue for the 2024 snow season.
+
+### Methodology
+- Followed a structured data science methodology: data wrangling, exploratory data analysis, feature engineering, and modeling.
+- Cleaned and preprocessed a dataset of 330 ski resorts, investigated patterns and relationships, created new features, and developed predictive models for ticket pricing.
+- Libraries: `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
+- Deliverables: Jupyter notebooks, cleaned dataset, trained models, [presentation slides](https://github.com/yourusername/Springboard-Guided-Capstone/blob/main/Big%20Mountain%20Resort%20Slides.pptx), and a comprehensive [project report](https://github.com/yourusername/Springboard-Guided-Capstone/blob/main/Guided%20Capstone%20Project%20Report.pdf).
+
+### Key Takeaways
+- Selected the Random Forest Regressor as the best model based on its superior performance and robustness.
+- Identified key factors influencing ticket pricing, such as the number of ski lifts, runs, and snow making capabilities.
+- Provided recommendations for resort improvements and pricing adjustments based on the model's insights.
+
+[Link to Repository](https://github.com/dennisvdang/Springboard-Portfolio/tree/main/Springboard%20Guided%20Capstone)
