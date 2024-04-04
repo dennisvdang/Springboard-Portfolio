@@ -19,10 +19,11 @@ The case studies cover a wide range of topics, including customer segmentation, 
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
-  - [App Store Case Study](#app-store-case-study)
-  - [Cosine Similarity](#cosine-similarity)
-  - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
-  - [Frequentist Inference](#frequentist-inference)
+  - **Statistical Foundations**
+    - [App Store Case Study](#app-store-case-study)
+    - [Cosine Similarity](#cosine-similarity)
+    - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
+    - [Frequentist Inference](#frequentist-inference)
 - **Mini Projects**
   - [API Mini Project](#api-mini-project)
   - [SQL Mini Project](#sql-mini-project)
@@ -287,7 +288,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Highlighted the importance of statistical concepts in real-world scenarios
 
 [Link to Frequentist Inference Case Study notebook (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
-[Link to Frequentist Inference Case Study notebook (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
+[(Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
 # Summary of Mini Projects
 
