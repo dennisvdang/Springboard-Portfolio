@@ -6,7 +6,7 @@ Hi! My name is Dennis Dang and this repository is a curated collection of my wor
 
 This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
 - **Case Studies**: Case studies covering a wide range of topics and demonstrate the application of various data science techniques and algorithms.
-- **Statistical Foundations**: Case studies that explore and apply fundamental data science concepts, statistical techniques, and mathematical principles, without necessarily building predictive models.
+- **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models.
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
 - **Guided Capstone**: An end-to-end data science project experience
 
@@ -14,7 +14,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 ## Table of Contents
 
-- **Summary of Case Studies**
+- [**Case Studies**](#case-studies)
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
   - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
@@ -23,17 +23,17 @@ This portfolio is intended to demonstrate my data science capabilities and how I
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
-- **Summary of Statistical Foundations**
+- **Statistical Foundations**
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
   - [Frequentist Inference](#frequentist-inference)
-- **Summary of Mini Projects**
+- **Mini Projects**
   - [API Mini Project](#api-mini-project)
   - [SQL Mini Project](#sql-mini-project)
-- **Summary of Guided Capstone**
+- **Guided Capstone**
   - [Guided Capstone](#guided-capstone)
 
-# Summary of Case Studies
+# Case Studies
 
 ## Customer Segmentation (Clustering Case Study)
 
