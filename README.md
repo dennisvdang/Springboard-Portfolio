@@ -31,6 +31,8 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Customer Segmentation (Clustering Case Study)
 
+[Link to Customer Segmentation Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
+
 **Objective**
 
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
@@ -42,7 +44,6 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Visualized the customer segments in a 2D space using Principal Component Analysis (PCA)
 - Analyzed the distribution of key features across the identified clusters and revealed the characteristics of each customer segment
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 **Key Takeaways**
 
