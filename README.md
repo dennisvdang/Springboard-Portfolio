@@ -2,15 +2,37 @@
 
 # Springboard Data Science Portfolio
 
-Welcome to my Springboard Data Science Portfolio!
+Welcome to my Springboard Data Science Portfolio! My name is Dennis Dang and I am the author and owner of the contents of this repository.
 
-This repository showcases a collection of case studies and mini-projects that I completed as part of the Springboard Data Science program.
+This repository showcases a collection of case studies, mini-projects, and a guided capstone that I completed as part of the Springboard Data Science program. The case studies cover a wide range of topics and demonstrate the application of various data science techniques and algorithms. The mini-projects focus on using industry-standard tools and libraries for data manipulation and analysis. The guided capstone provides an end-to-end data science project experience.
 
-The case studies cover a wide range of topics, including customer segmentation, predictive modeling, time series analysis, and more. The mini-projects are demonstrations using industry-standard tools and techniques, such as APIs and SQL databases. There is also a guided capstone in here where I analyze data from a business client to provide pricing recommendations. This README contains a summary of each case study and project, as well as a link to the full notebook. Be sure to check out the other pinned repositories for my other projects and capstones!
+The README is structured into the following sections:
+- Summary of Case Studies
+- Summary of Statistical Foundations
+- Summary of Mini Projects 
+- Summary of Guided Capstone
+
+Each section contains a brief description of the objective, methodology, and key takeaways for each project, along with a link to the corresponding Jupyter notebook or code file.
+
+I hope this portfolio demonstrates my skills and knowledge in data science and showcases my ability to apply these techniques to real-world problems. Please feel free to explore the projects and provide any feedback or questions you may have.
+
+---
+
+# Springboard Data Science Portfolio
+
+Hi there! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
+
+This README contains summaries (objectives, methods, and takeaways) in the following categories:
+- **Case Studies**: Case studies covering a wide range of topics and demonstrate the application of various data science techniques and algorithms.
+- **Statistical Foundations**: Case studies that explore and apply fundamental data science concepts, statistical techniques, and mathematical principles, without necessarily building predictive models.
+- **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
+- **Guided Capstone**: An end-to-end data science project experience
+
+This portfolio is intended to demonstrate my data science capabilities and how I apply these techniques to real-world problems. I encourage you to explore the projects and welcome any feedback or questions. Please note, while this repository is public for viewing and reference, I kindly ask that other students use this repo as a reference/template only and not copy it directly for their submissions.
 
 ## Table of Contents
 
-- **Case Studies**
+- **Summary of Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
   - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
@@ -19,15 +41,17 @@ The case studies cover a wide range of topics, including customer segmentation, 
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
-- **Case Studies Using Statistical Foundations**
+- **Summary of Statistical Foundations**
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
   - [Frequentist Inference](#frequentist-inference)
-- **Mini Projects**
+- **Summary of Mini Projects**
   - [API Mini Project](#api-mini-project)
   - [SQL Mini Project](#sql-mini-project)
-- **Capstone**
+- **Summary of Guided Capstone**
   - [Guided Capstone](#guided-capstone)
+
+# Summary of Case Studies
 
 ## Customer Segmentation (Clustering Case Study)
 
@@ -100,7 +124,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## COVID-19 Prediction (Random Forest Case Study)
 
-**Objective**s
+**Objective**
 
 - Predict the severity of COVID-19 cases using patient characteristics and symptoms
 
