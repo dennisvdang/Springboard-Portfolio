@@ -28,8 +28,6 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - **Capstone**
   - [Guided Capstone](#guided-capstone)
 
----
-
 ## Customer Segmentation (Clustering Case Study)
 
 ### Objective
