@@ -147,6 +147,8 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
 - [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
+---
+
 ## API Mini Project
 
 - Developed a Python application to interact with a public API.
@@ -165,3 +167,7 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Utilized SQLite for database management and pandas for data manipulation and presentation.
 - Tools: `SQL`, `SQLite`, `Pandas`
 - [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/SQL%20Mini%20Project/SQLite%20notebook.ipynb)
+
+---
+
+## Guided Capstone
