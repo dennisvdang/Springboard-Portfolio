@@ -13,16 +13,16 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
-  - [Grid Search KNN Case Study](#grid-search-knn-case-study)
+  - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
+  - [COVID-19 Predictions (Random Forest Case Study)](#covid-19-predictions-random-forest-case-study)
+  - [Wine Quality Prediction (Linear Regression Case Study)](#wine-quality-prediction-linear-regression-case-study)
+  - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
+  - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
+  - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
   - [App Store Case Study](#app-store-case-study)
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
   - [Frequentist Inference](#frequentist-inference)
-  - [Gradient Boosting](#gradient-boosting)
-  - [Linear Regression (Wine Quality Case Study)](#linear-regression-wine-quality-case-study)
-  - [Logistic Regression (Heart Disease Case Study)](#logistic-regression-heart-disease-case-study)
-  - [London Housing Case Study](#london-housing-case-study)
-  - [Random Forest (Covid Case Study)](#random-forest-covid-case-study)
 - **Mini Projects**
   - [API Mini Project](#api-mini-project)
   - [SQL Mini Project](#sql-mini-project)
@@ -68,7 +68,6 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Evaluated model performance using accuracy, balanced accuracy, precision, and recall metrics
 - Compared the performance of a single decision tree model to a Random Forest ensemble model
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 **Key Takeaways**
 
@@ -76,7 +75,105 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Demonstrated the effectiveness of decision trees for predictive modeling
 - Highlighted the importance of model simplicity and interpretability for specific datasets
 
-## Grid Search KNN Case Study
+[Link to Customer Purchasing Prediction Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+## London Housing Price Forecasting (Time Series Analysis/EDA Case Study)
+
+**Objective**
+
+- Analyze trends in London's housing market and forecast future prices
+
+**Methodology**
+
+- Conducted exploratory data analysis (EDA) to understand the impact of the 2008 financial crisis on London's housing market
+- Applied statistical tests to explore the relationship between pre-crisis prices and crisis recovery time
+- Employed time series models (ARIMA, SARIMA) and Random Forest to forecast property values
+- Evaluated model performance using MSE and MAE
+- Libraries: `Pandas`, `Numpy`, `Statsmodels`, `Matplotlib`, `Seaborn`
+
+**Key Takeaways**
+
+- Identified trends and patterns in London's housing market over time
+- Demonstrated the application of time series modeling for forecasting
+
+[Link to London Housing Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Springboard%20London%20Housing%20Case%20Study%20-%20Tier%203.ipynb)
+
+## COVID-19 Predictions (Random Forest Case Study)
+
+**Objective**s
+
+- Predict the severity of COVID-19 cases using patient characteristics and symptoms
+
+**Methodology**
+
+- Preprocessed and explored the dataset to understand feature-target relationships
+- Built and evaluated random forest models with different hyperparameters and feature subsets
+- Interpreted feature importances to identify key risk factors for severe COVID-19
+- Libraries: `Pandas`, `Numpy`, `Scikit-learn`, `Matplotlib`, `Seaborn`
+
+**Key Takeaways**
+
+- Demonstrated the application of random forests for predicting disease severity
+- Highlighted the importance of feature selection and hyperparameter tuning
+
+[Link to Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+## Wine Quality Prediction (Linear Regression Case Study)
+
+**Objective**
+
+- Predict alcohol levels in wine using regression analysis and build an accurate model
+
+**Methodology**
+
+- Performed univariate and multivariate analysis to iterate towards an accurate model
+- Utilized EDA to visualize correlations and inform model selection
+- Developed multiple linear regression models, iterating to improve accuracy and reduce redundancy
+- Evaluated models based on R-squared, AIC, and BIC metrics
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
+
+**Key Takeaways**
+
+- Importance of iterative model development and feature selection
+- Demonstrated the application of linear regression in predicting continuous variables
+- Identified the most elegant and economical model (rModel4) using a few predictors effectively
+
+[Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
+
+## Heart Disease Prediction (Logistic Regression Case Study)
+
+- Introduced Logistic Regression as a fundamental algorithm for classification problems.
+- Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
+- Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
+- Utilized libraries such as scikit-learn for model building and matplotlib for data visualization.
+- Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
+
+[Link to Heart Disease Predictions Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
+
+## Passenger Survival Prediction (Gradient Boosting Case Study)
+
+**Objective**
+
+- Explore the concept of gradient boosting using decision trees as base predictors to predict passenger survival in the Titanic dataset
+
+**Methodology**
+
+- Utilized the Titanic dataset to demonstrate the application of gradient boosting for binary classification
+- Preprocessed the dataset, handling missing values and encoding categorical variables
+- Demonstrated the process of fitting a series of decision trees on residual errors to improve predictions
+- Evaluated model performance with multiple learning rates and calculated the ROC curve
+- Libraries: `Pandas`, `NumPy`, `Scikit-learn`, `Matplotlib`
+
+**Key Takeaways**
+
+- Gradient boosting can significantly improve model performance in predicting passenger survival
+- Importance of tuning hyperparameters, such as learning rate and number of estimators, to optimize model performance
+- Demonstrated the effectiveness of gradient boosting in handling complex datasets with a mix of numerical and categorical features
+
+[Link to Gradient Boosting Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
+
+## Diabetes Prediction (Grid Search KNN Case Study)
 
 **Objective**
 
@@ -91,7 +188,6 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Plotted the confusion matrix and printed the classification report for the optimal model.
 - Applied the grid search method to find the optimal number of estimators in a Random Forest model.
 - Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
 
 **Key Takeaways**
 
@@ -99,148 +195,144 @@ The case studies cover a wide range of topics, including customer segmentation, 
 - Identifying the optimal hyperparameters can significantly improve the model's performance on both the training and test datasets.
 - Visualizing the model's performance, such as through confusion matrices and classification reports, provides valuable insights into the model's strengths and weaknesses.
 
+[Link to Grid Search KNN Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
+
 ## App Store Case Study
 
 **Objective**
+
 - Investigate if Apple Store apps receive better reviews than Google Play apps
 
 **Methodology**
+
 - Followed the Data Science Pipeline: Sourcing, Cleaning, Modeling, Evaluating
 - Conducted a Permutation test for hypothesis testing
 - Libraries: `NumPy`, `Matplotlib`, `SciPy`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
 **Key Takeaways**
+
 - Platform impacts app ratings
 - Google Play recommended for better app reviews
 
+[Link to App Store Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/App%20Store%20Case%20Study/Springboard%20Apps%20project%20-%20Tier%203%20-%20Complete.ipynb)
 
 ## Cosine Similarity
 
 **Objective**
+
 - Use cosine similarity to compare numeric data and text datasets
 
 **Methodology**
+
 - Calculated similarity measures for sentences/paragraphs
 - Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scipy`, `Scikit-learn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
 **Key Takeaways**
+
 - Cosine similarity effective for comparing numeric and text data
 - Applicable in NLP and recommendation systems
+
+[Link to Cosine Similarity Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Cosine%20Similarity/Cosine_Similarity_Case_Study.ipynb)
 
 ## Euclidean and Manhattan Distance
 
 **Objective**
+
 - Demonstrate calculation and comparison of Euclidean and Manhattan distances
 
 **Methodology**
+
 - Visualized distribution of distances through histograms
 - Highlighted application in data science, foundational for PCA
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
 
 **Key Takeaways**
+
 - Euclidean and Manhattan distances have different behaviors
+
+[Link to Euclidean and Manhattan Distance Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Euclidean%20and%20Manhattan%20Distance/Euclidean_and_Manhattan_Distances_Case_Study.ipynb)
 
 ## Frequentist Inference
 
-- Applied Frequentist inference to real-world data, addressing practical business questions for a hospital, emphasizing statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals.
-- Explored the Central Limit Theorem and its implications.
-- Estimated population mean and standard deviation from a sample.
-- Calculated confidence intervals.
+**Objective**
+
+- Apply Frequentist inference to real-world data, addressing practical business questions for a hospital
+
+**Methodology**
+
+- Emphasized statistical concepts like z-statistic, t-statistic, Central Limit Theorem, and confidence intervals
+- Explored the Central Limit Theorem and its implications
+- Estimated population mean and standard deviation from a sample
+- Calculated confidence intervals
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`
-- [Link to Case Study (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
-- [Link to Case Study (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
-## Gradient Boosting
+**Key Takeaways**
 
-- Explored the concept of gradient boosting using decision trees as base predictors.
-- Demonstrated the process of fitting a series of decision trees on residual errors.
-- Evaluated model performance with multiple learning rates and calculated the ROC curve.
-- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
+- Demonstrated the application of Frequentist inference in making data-driven decisions
+- Highlighted the importance of statistical concepts in real-world scenarios
 
-## Linear Regression (Wine Quality Case Study)
+[Link to Frequentist Inference Case Study notebook (Part 1)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20A%20(3).ipynb)
+[Link to Frequentist Inference Case Study notebook (Part 2)](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Frequentist%20Inference/Frequentist%20Inference%20Case%20Study%20-%20Part%20B%20(2).ipynb)
 
-- Conducted a comprehensive regression analysis to predict alcohol levels in wine.
-- Performed both univariate and multivariate analysis to iterate towards an accurate model.
-- Utilized exploratory data analysis (EDA) to visualize correlations and inform model selection.
-- Developed multiple linear regression models, iterating to improve accuracy and reduce redundancy.
-- Evaluated models based on R-squared, AIC, and BIC metrics.
-- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`, `Scikit-learn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Linear%20Regression%20(Wine%20Quality%20Case%20Study)/Springboard%20Regression%20Case%20Study%20-%20the%20Red%20Wine%20Dataset%20-%20Tier%203.ipynb)
-
-## Logistic Regression (Heart Disease Case Study)
-
-- Introduced Logistic Regression as a fundamental algorithm for classification problems.
-- Demonstrated the process of building a logistic regression model to predict the presence of heart disease using patient health data.
-- Covered key concepts including classification, model evaluation, and the distinction between discriminative and generative classifiers.
-- Utilized libraries such as scikit-learn for model building and matplotlib for data visualization.
-- Explored model tuning and evaluation using accuracy, precision, recall, and ROC curves to assess model performance.
-- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`, `NumPy`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Logistic%20Regression%20(Heart%20Disease%20Case%20Study)/Logistic%20Regression%20Advanced%20Case%20Study.ipynb)
-
-## London Housing Case Study
-
-- Investigated trends in London's housing market.
-- Analyzed price movements and factors influencing housing prices.
-- Utilized time series analysis for forecasting future prices.
-- Conducted exploratory data analysis (EDA) to understand the impact of the 2008 financial crisis on London's housing market.
-- Applied statistical tests to explore the relationship between pre-crisis prices and crisis recovery time.
-- Employed Random Forest predictions to forecast 2024 property values based on borough, season, and other features.
-- Demonstrated the use of polynomial fitting and ordinary least squares regression to model the relationship between housing prices and recovery times post-crisis.
-- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, `Statsmodels`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Unit%204%20Challenge%20-%20Tier%203.ipynb)
-
-## Random Forest (Covid Case Study)
-
-- Applied Random Forest algorithm to predict COVID-19 infection rates.
-- Feature importance analysis to identify key predictors of infection rates.
-- Evaluated model performance with cross-validation.
-- Demonstrated Random Forest's ability to handle highly correlated features and its efficiency in feature importance investigation.
-- Highlighted Random Forest as a preferred choice for decision trees, especially in multiclass classifications.
-- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
-- [Link to Case Study](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
-
----
+# Summary of Mini Projects
 
 ## API Mini Project
 
-- Developed a Python application to interact with a public API.
-- Implemented data retrieval, processing, and visualization functionalities.
-- Focused on equities data from the Frankfurt Stock Exchange (FSE), specifically analyzing the stock prices of Carl Zeiss Meditec (ticker AFX_X) for the year 2017.
-- Utilized the `requests` package for API calls and handled data in native Python data structures, with an emphasis on dictionaries.
-- Calculated various statistics from the stock data, including the highest and lowest opening prices, the largest change in one day, the largest change between any two days, average daily trading volume, and median trading volume for 2017.
-- Libraries: `os`, `dotenv`, `requests`, `pandas`, `json`
-- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
+**Objective**
+
+- Explore the use of APIs for data collection and integration in data analysis workflows
+
+**Methodology**
+
+- Demonstrated making API requests, handling authentication, and parsing JSON responses
+- Collected data from the GitHub API and performed basic analysis
+- Libraries: `Requests`, `Pandas`, `Matplotlib`
+
+**Key Takeaways**
+
+- APIs enable access to vast amounts of data for analysis
+- Python libraries simplify API interactions and data manipulation
+
+[Link to Mini Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Mini%20Projects/api_data_wrangling_mini_project.ipynb)
 
 ## SQL Mini Project
 
-- Performed data extraction and manipulation using SQL queries.
-- Analyzed data from a relational database to answer business questions.
-- Tasks included identifying facilities with total revenue less than 1000, producing a report of members and their recommenders, finding facilities with their usage by members (excluding guests), and analyzing facility usage by month.
-- Utilized SQLite for database management and pandas for data manipulation and presentation.
-- Tools: `SQL`, `SQLite`, `Pandas`
-- [Link to Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Projects/SQL%20Mini%20Project/SQLite%20notebook.ipynb)
+**Objective**
 
----
+- Demonstrate the use of SQL for data manipulation, aggregation, and analysis
+
+**Methodology**
+
+- Performed various SQL queries on a sample database (filtering, joining, grouping, sorting)
+- Showcased SQL's power in handling complex data queries and transformations
+- Libraries/Tools: `SQLite`, `Pandas`, `MySQL`, `PHPMyAdmin`
+
+**Key Takeaways**
+
+- SQL is a powerful tool for data manipulation and analysis
+- Proficiency in SQL and SQL libraries in Python is essential for working with relational databases
+
+[Link to Mini Project](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Mini%20Projects/sql_project.sql)
+
+# Capstone
 
 ## Guided Capstone
 
-### Objective
+**Objective**
 
-- Developed a data-driven pricing model for Big Mountain Resort to optimize ski ticket prices and increase revenue for the 2024 snow season.
+- Complete a comprehensive data science project covering all stages of the data science lifecycle
 
-### Methodology
-- Followed a structured data science methodology: data wrangling, exploratory data analysis, feature engineering, and modeling.
-- Cleaned and preprocessed a dataset of 330 ski resorts, investigated patterns and relationships, created new features, and developed predictive models for ticket pricing.
-- Libraries: `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
-- Deliverables: Jupyter notebooks, cleaned dataset, trained models, [presentation slides](https://github.com/yourusername/Springboard-Guided-Capstone/blob/main/Big%20Mountain%20Resort%20Slides.pptx), and a comprehensive [project report](https://github.com/yourusername/Springboard-Guided-Capstone/blob/main/Guided%20Capstone%20Project%20Report.pdf).
+**Methodology**
 
-### Key Takeaways
-- Selected the Random Forest Regressor as the best model based on its superior performance and robustness.
-- Identified key factors influencing ticket pricing, such as the number of ski lifts, runs, and snow making capabilities.
-- Provided recommendations for resort improvements and pricing adjustments based on the model's insights.
+- Collaborated with a team to define project scope, objectives, and deliverables
+- Conducted extensive EDA to gain insights and inform modeling
+- Built and evaluated multiple machine learning models (regression, classification, clustering)
+- Communicated findings through visualizations, reports, and presentations
+- Libraries: `Pandas`, `Numpy`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 
-[Link to Repository](https://github.com/dennisvdang/Springboard-Portfolio/tree/main/Springboard%20Guided%20Capstone)
+**Key Takeaways**
+
+- Hands-on experience with the complete data science lifecycle
+- Importance of collaboration, communication, and project management in data science
+
+[Link to Capstone Project](https://github.com/dennisvdang/Springboard-Portfolio/tree/main/Capstone%20Project/Guided%20Capstone)
