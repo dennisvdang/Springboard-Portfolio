@@ -1,6 +1,6 @@
-# Springboard Data Science Portfolio
-
 ![Banner Image](images/banner.webp)
+
+# Springboard Data Science Portfolio
 
 Welcome to my Springboard Data Science Portfolio!
 
