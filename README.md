@@ -2,9 +2,9 @@
 
 # Springboard Data Science Portfolio
 
-Hi there! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
+Hi! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
 
-This README contains summaries (objectives, methods, and takeaways) in the following categories:
+This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
 - **Case Studies**: Case studies covering a wide range of topics and demonstrate the application of various data science techniques and algorithms.
 - **Statistical Foundations**: Case studies that explore and apply fundamental data science concepts, statistical techniques, and mathematical principles, without necessarily building predictive models.
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
