@@ -32,9 +32,11 @@ The case studies cover a wide range of topics, including customer segmentation, 
 ## Customer Segmentation (Clustering Case Study)
 
 **Objective**
+
 - Segment customers based on their purchasing behavior and response to marketing campaign offers, and provide insights into the characteristics of each customer segment to enable targeted marketing strategies
 
 **Methodology**
+
 - Cleaned and transformed data to create a matrix of customer responses to different offers
 - Applied k-means clustering and determined the optimal number of clusters using the Elbow, Silhouette, and Gap statistic methods
 - Visualized the customer segments in a 2D space using Principal Component Analysis (PCA)
@@ -44,11 +46,11 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Customer Purchasing Prediction (Decision Tree Case Study)
 
-### Objective
+**Objective**
 
 - Build a predictive model to estimate the likelihood of RR Diner Coffee's loyal customers purchasing the Hidden Farm coffee.
 
-### Methodology
+**Methodology**
 
 - Analyzed customer data such as age, gender, salary, online purchases, distance from the flagship store, and spending habits to understand key drivers of customer purchasing behavior.
 - Implemented four decision tree models with varying parameters to understand the impact of different parameters on model performance:
@@ -64,10 +66,10 @@ The case studies cover a wide range of topics, including customer segmentation, 
 
 ## Grid Search KNN Case Study
 
-### Objective
+**Objective**
 - Optimize the hyperparameters of a K-Nearest Neighbors (KNN) classifier using grid search on the Pima Indians Diabetes dataset.
 
-### Methodology
+**Methodology**
 - Loaded and preprocessed the Pima Indians Diabetes dataset and standardize the features.
 - Implemented a loop to train KNN models with a range of neighbor values (1-9) and evaluated the training and test scores.
 - Identified the optimal number of neighbors based on the maximum test score.
