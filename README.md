@@ -5,16 +5,18 @@
 Hi! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
 
 This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
-- **Case Studies**: Case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms.
-- **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models.
+- **Case Studies**: Case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms
+- **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
 - **Guided Capstone**: An end-to-end data science project experience
 
-This portfolio is intended to demonstrate my data science capabilities and how I apply these techniques to real-world problems. I encourage you to explore the projects and welcome any feedback or questions. Please note, while this repository is public for viewing and reference, I kindly ask that other students use this repo as a reference/template only and not copy it directly for their submissions.
+This portfolio is intended to demonstrate my data science capabilities and how I apply these techniques to real-world problems. I encourage you to explore the projects and welcome any feedback or questions. For more of my project work or independent capstones, please visit the pinned repositories on my [Github](https://github.com/dennisvdang) or visit my website: [https://www.dennisvdang.com](https://dennisvdang.com).
+
+*Please note, while this repository is public for viewing and reference, I kindly ask that other students use this repo as a reference/template only and not copy it directly for their submissions. Feel free to ask questions or connect with me on [LinkedIn](https://www.linkedin.com/in/dennisvdang/).*
 
 ## Table of Contents
 
-- [**Case Studies**](#case-studies)
+- **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
   - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
@@ -35,7 +37,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 # Case Studies
 
-Summaries of case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms.
+*Below are summaries of case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms.*
 
 ## Customer Segmentation (Clustering Case Study)
 
