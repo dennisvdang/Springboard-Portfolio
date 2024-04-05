@@ -1,3 +1,5 @@
+![Banner Image](images/bigmountainbanner.webp)
+
 # Springboard Guided Capstone Project
 
 *Submitted by Dennis Dang*
