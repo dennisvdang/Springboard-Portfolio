@@ -19,12 +19,13 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - **Case Studies**
   - [Customer Segmentation (Clustering Case Study)](#customer-segmentation-clustering-case-study)
   - [Customer Purchasing Prediction (Decision Tree Case Study)](#customer-purchasing-prediction-decision-tree-case-study)
-  - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
   - [COVID-19 Prediction (Random Forest Case Study)](#covid-19-prediction-random-forest-case-study)
+  - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
+  - [London Housing Price Forecasting (Time Series Analysis/EDA Case Study)](#london-housing-price-forecasting-time-series-analysiseda-case-study)
   - [Wine Quality Prediction (Linear Regression Case Study)](#wine-quality-prediction-linear-regression-case-study)
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
-  - [Diabetes Prediction (Grid Search KNN Case Study)](#diabetes-prediction-grid-search-knn-case-study)
+  - [Flight Delay Prediction (Bayesian Optimization Case Study)](#flight-delay-prediction-bayesian-optimization-case-study)
 - **Statistical Foundations**
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
@@ -87,6 +88,50 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 [Link to Customer Purchasing Prediction Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
+## COVID-19 Prediction (Random Forest Case Study)
+
+**Objective**
+
+- Predict the severity of COVID-19 cases using patient characteristics and symptoms
+
+**Methodology**
+
+- Preprocessed and explored the dataset to understand feature-target relationships
+- Built and evaluated random forest models with different hyperparameters and feature subsets
+- Interpreted feature importances to identify key risk factors for severe COVID-19
+- Libraries: `Pandas`, `Numpy`, `Scikit-learn`, `Matplotlib`, `Seaborn`
+
+**Key Takeaways**
+
+- Demonstrated the application of random forests for predicting disease severity
+- Highlighted the importance of feature selection and hyperparameter tuning
+
+[Link to COVID-19 Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+
+## Diabetes Prediction (Grid Search KNN Case Study)
+
+**Objective**
+
+- Optimize the hyperparameters of a K-Nearest Neighbors (KNN) classifier using grid search on the Pima Indians Diabetes dataset.
+
+**Methodology**
+
+- Loaded and preprocessed the Pima Indians Diabetes dataset and standardize the features.
+- Implemented a loop to train KNN models with a range of neighbor values (1-9) and evaluated the training and test scores.
+- Identified the optimal number of neighbors based on the maximum test score.
+- Fit the KNN model with the optimal number of neighbors and evaluated its performance on the training and test sets.
+- Plotted the confusion matrix and printed the classification report for the optimal model.
+- Applied the grid search method to find the optimal number of estimators in a Random Forest model.
+- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
+
+**Key Takeaways**
+
+- Grid search is an effective technique for optimizing hyperparameters of machine learning models, such as the number of neighbors in KNN and the number of estimators in Random Forest.
+- Identifying the optimal hyperparameters can significantly improve the model's performance on both the training and test datasets.
+- Visualizing the model's performance, such as through confusion matrices and classification reports, provides valuable insights into the model's strengths and weaknesses.
+
+[Link to Diabetes Prediction Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
+
 ## London Housing Price Forecasting (Time Series Analysis/EDA Case Study)
 
 **Objective**
@@ -107,26 +152,6 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Demonstrated the application of time series modeling for forecasting
 
 [Link to London Housing Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/London%20Housing%20Case%20Study/Springboard%20London%20Housing%20Case%20Study%20-%20Tier%203.ipynb)
-
-## COVID-19 Prediction (Random Forest Case Study)
-
-**Objective**
-
-- Predict the severity of COVID-19 cases using patient characteristics and symptoms
-
-**Methodology**
-
-- Preprocessed and explored the dataset to understand feature-target relationships
-- Built and evaluated random forest models with different hyperparameters and feature subsets
-- Interpreted feature importances to identify key risk factors for severe COVID-19
-- Libraries: `Pandas`, `Numpy`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-
-**Key Takeaways**
-
-- Demonstrated the application of random forests for predicting disease severity
-- Highlighted the importance of feature selection and hyperparameter tuning
-
-[Link to Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 ## Wine Quality Prediction (Linear Regression Case Study)
 
@@ -197,30 +222,6 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Demonstrated the effectiveness of gradient boosting in handling complex datasets with a mix of numerical and categorical features
 
 [Link to Gradient Boosting Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
-
-## Diabetes Prediction (Grid Search KNN Case Study)
-
-**Objective**
-
-- Optimize the hyperparameters of a K-Nearest Neighbors (KNN) classifier using grid search on the Pima Indians Diabetes dataset.
-
-**Methodology**
-
-- Loaded and preprocessed the Pima Indians Diabetes dataset and standardize the features.
-- Implemented a loop to train KNN models with a range of neighbor values (1-9) and evaluated the training and test scores.
-- Identified the optimal number of neighbors based on the maximum test score.
-- Fit the KNN model with the optimal number of neighbors and evaluated its performance on the training and test sets.
-- Plotted the confusion matrix and printed the classification report for the optimal model.
-- Applied the grid search method to find the optimal number of estimators in a Random Forest model.
-- Libraries: `Pandas`, `Scikit-learn`, `Matplotlib`
-
-**Key Takeaways**
-
-- Grid search is an effective technique for optimizing hyperparameters of machine learning models, such as the number of neighbors in KNN and the number of estimators in Random Forest.
-- Identifying the optimal hyperparameters can significantly improve the model's performance on both the training and test datasets.
-- Visualizing the model's performance, such as through confusion matrices and classification reports, provides valuable insights into the model's strengths and weaknesses.
-
-[Link to Grid Search KNN Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Grid%20Search%20KNN%20Case%20Study/GridSearchKNN_Case_Study.ipynb)
 
 # Statistical Foundations
 
