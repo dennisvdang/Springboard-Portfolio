@@ -369,4 +369,4 @@ Summaries of case studies that explore and apply fundamental statistical techniq
 - Hands-on experience with the complete data science lifecycle
 - Importance of collaboration, communication, and project management in data science
 
-[Link to Capstone Project](https://github.com/dennisvdang/Springboard-Portfolio/tree/main/Capstone%20Project/Guided%20Capstone)
+[Link to Capstone Project](https://github.com/dennisvdang/Springboard-Portfolio/tree/main/Springboard%20Guided%20Capstone)
