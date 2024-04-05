@@ -223,6 +223,29 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 [Link to Gradient Boosting Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Gradient%20Boosting/Gradient%20Boosting%20Case%20Study.ipynb)
 
+## Flight Delay Prediction (Bayesian Optimization Case Study)
+
+**Objective**
+
+- Use Bayesian Optimization to tune hyperparameters of a LightGBM model for flight delay prediction
+
+**Methodology**
+
+- Loaded and preprocessed the flight delay dataset, handling missing values and encoding categorical features.
+- Evaluated the LightGBM model with given hyperparameters using cross-validation.
+- Set up the Bayesian Optimization process using the `BayesianOptimization` library, specifying the hyperparameter search space.
+- Performed Bayesian Optimization to find the optimal hyperparameters that maximize the AUC (Area Under the Receiver Operating Characteristic Curve) metric.
+- Trained the final LightGBM model with the optimal hyperparameters obtained from Bayesian Optimization.
+- Evaluated the final model's performance on the test set and compared it with a majority class baseline.
+- Libraries: `Pandas`, `NumPy`, `LightGBM`, `Scikit-learn`, `Bayesian Optimization`, `Matplotlib`
+
+**Key Takeaways**
+
+- Bayesian Optimization is an effective technique for optimizing hyperparameters of complex machine learning models, such as LightGBM.
+- Visualizing the model's performance using metrics like AUC, confusion matrix, and accuracy provides insights into the model's strengths and weaknesses.
+
+[Link to Bayesian Optimization Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
+
 # Statistical Foundations
 
 Summaries of case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models.
