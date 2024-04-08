@@ -106,7 +106,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Demonstrated the application of random forests for predicting disease severity
 - Highlighted the importance of feature selection and hyperparameter tuning
 
-[Link to COVID-19 Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
+[Link to COVID-19 Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
 ## Diabetes Prediction (Grid Search KNN Case Study)
 
