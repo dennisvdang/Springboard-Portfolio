@@ -269,7 +269,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - The case study highlighted the importance of time series decomposition and the capability of ARIMA models in forecasting future trends based on historical data.
 - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`
 
-[Link to Time Series Analysis and Forecasting with ARIMA Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
+[Link to Time Series Analysis and Forecasting with ARIMA Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Time%20Series%20Case%20Study/Cowboy%20Cigarettes%20Case%20Study%20-%20Tier%203.ipynb)
 
 # Statistical Foundations
 
