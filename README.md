@@ -26,6 +26,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Flight Delay Prediction (Bayesian Optimization Case Study)](#flight-delay-prediction-bayesian-optimization-case-study)
+  - [Sales Forecasting (Time Series Analysis & Forecasting with ARIMA Case Study)](#sales-forecasting-time-series-analysis-forecasting-with-arima-case-study)
 - **Statistical Foundations**
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
@@ -245,6 +246,30 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 - Visualizing the model's performance using metrics like AUC, confusion matrix, and accuracy provides insights into the model's strengths and weaknesses.
 
 [Link to Bayesian Optimization Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
+
+
+## Sales Forecasting (Time Series Analysis & Forecasting with ARIMA Case Study)
+
+**Objective**
+
+- To analyze the sales data of Cowboy Cigarettes from 1949 to 1960 and predict future sales using time series forecasting with the ARIMA model.
+
+**Methodology**
+
+- Loaded and explored the historical sales data of Cowboy Cigarettes.
+- Performed data cleaning and transformation, including log transformation to stabilize the variance.
+- Conducted exploratory data analysis (EDA) to understand the trend, seasonality, and noise in the sales data.
+- Utilized the Augmented Dickey-Fuller test to check for stationarity and applied differencing to achieve a stationary time series.
+- Employed the ARIMA model for time series forecasting, optimizing the model parameters (p, d, q) based on the Akaike Information Criterion (AIC).
+- Forecasted future sales for the next two years and visualized the original data along with the forecasts.
+
+**Key Takeaways:**
+- The ARIMA model effectively captured the underlying trend and seasonality in Cowboy Cigarettes' sales data, providing a close fit to the historical data.
+- Forecasting revealed an increasing trend in sales, suggesting a growing demand for Cowboy Cigarettes.
+- The case study highlighted the importance of time series decomposition and the capability of ARIMA models in forecasting future trends based on historical data.
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Statsmodels`
+
+[Link to Time Series Analysis and Forecasting with ARIMA Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
 
 # Statistical Foundations
 
