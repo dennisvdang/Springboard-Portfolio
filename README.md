@@ -247,7 +247,6 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 [Link to Bayesian Optimization Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
 
-
 ## Sales Forecasting (Time Series Analysis & Forecasting with ARIMA Case Study)
 
 **Objective**
