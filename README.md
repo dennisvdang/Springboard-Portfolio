@@ -2,17 +2,21 @@
 
 # Springboard Data Science Portfolio
 
-Hi! My name is Dennis Dang and this repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. While the initial prompts and datasets are provided by Springboard, the analysis, code, and organization of the content have been independently developed and refined by me to showcase my skills and approach to data science.
+Hi, there! This repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. 
 
 This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
-- **Case Studies**: Case studies that cover a wide range of topics and demonstrate the application of various data science techniques and algorithms
-- **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques and mathematical principles, without necessarily building predictive models
+
+- **Case Studies**: Industry case studies that cover a wide range of topics and techniques in data science
+- **Statistical Foundations**: Case studies that explore and apply fundamental statistical techniques, without necessarily building predictive models
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
 - **Guided Capstone**: An end-to-end data science project experience
 
-This portfolio is intended to demonstrate my data science capabilities and how I apply these techniques to real-world problems. I encourage you to explore the projects and welcome any feedback or questions. For more of my project work or independent capstones, please visit the pinned repositories on my [Github](https://github.com/dennisvdang) or visit my website: [https://www.dennisvdang.com](https://dennisvdang.com).
+Not included in this repo are my two independent capstones, which have their own repositories that you can find here:
 
-*Please note, while this repository is public for viewing and reference, I kindly ask that other students use this repo as a reference/template only and not copy it directly for their submissions. Feel free to ask questions or connect with me on [LinkedIn](https://www.linkedin.com/in/dennisvdang/).*
+- [Automated Chorus Detection](https://github.com/dennisvdang/chorus-detection)
+- [QA Information Retrieval System](https://github.com/dennisvdang/QA-Retrieval-System)
+
+For more of my project work or independent capstones, please visit the pinned repositories on my [Github](https://github.com/dennisvdang) or visit my website: [https://www.dennisvdang.com](https://dennisvdang.com).
 
 ## Table of Contents
 
@@ -26,7 +30,8 @@ This portfolio is intended to demonstrate my data science capabilities and how I
   - [Heart Disease Prediction (Logistic Regression Case Study)](#heart-disease-prediction-logistic-regression-case-study)
   - [Passenger Survival Prediction (Gradient Boosting Case Study)](#passenger-survival-prediction-gradient-boosting-case-study)
   - [Flight Delay Prediction (Bayesian Optimization Case Study)](#flight-delay-prediction-bayesian-optimization-case-study)
-  - [Sales Forecasting (Time Series Analysis & Forecasting with ARIMA Case Study)](#sales-forecasting-time-series-analysis-forecasting-with-arima-case-study)
+  - [Sales Forecasting (Time Series Forecasting with ARIMA Case Study)](#sales-forecasting-time-series-forecasting-with-arima-case-study)
+
 - **Statistical Foundations**
   - [Cosine Similarity](#cosine-similarity)
   - [Euclidean and Manhattan Distance](#euclidean-and-manhattan-distance)
@@ -247,7 +252,7 @@ This portfolio is intended to demonstrate my data science capabilities and how I
 
 [Link to Bayesian Optimization Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Bayesian%20Optimization%20Case%20Study/Bayesian_Optimization_Case_Study_Cleaned.ipynb)
 
-## Sales Forecasting (Time Series Analysis & Forecasting with ARIMA Case Study)
+## Sales Forecasting (Time Series Forecasting with ARIMA Case Study)
 
 **Objective**
 
