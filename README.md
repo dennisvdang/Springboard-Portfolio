@@ -2,7 +2,7 @@
 
 # Springboard Data Science Portfolio
 
-Hi, there! This repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program. 
+Hi, there! This repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program.
 
 This README contains summaries (objectives, methods, and takeaways) of the following curriculum categories:
 
@@ -11,7 +11,7 @@ This README contains summaries (objectives, methods, and takeaways) of the follo
 - **Mini Projects**: Projects using industry-standard tools and libraries for data manipulation and analysis
 - **Guided Capstone**: An end-to-end data science project experience
 
-Not included in this repo are my two independent capstones, which have their own repositories that you can find here:
+Not included in this repo are my two independent capstones, which have their own repositories. Links below:
 
 - [Automated Chorus Detection](https://github.com/dennisvdang/chorus-detection)
 - [QA Information Retrieval System](https://github.com/dennisvdang/QA-Retrieval-System)
