@@ -66,6 +66,8 @@ For more of my project work or independent capstones, please visit the pinned re
 - Demonstrated the effectiveness of k-means clustering for customer segmentation
 - Highlighted the importance of feature selection and dimensionality reduction for effective clustering and visualization
 
+![Customer_Segmentation](images/customer_segmentation.png)
+
 [Link to Customer Segmentation Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Segmentation%20(Clustering%20Case%20Study)/Clustering%20Case%20Study%20-%20Customer%20Segmentation%20with%20K-Means%20-%20Tier%203.ipynb)
 
 ## Customer Purchasing Prediction (Decision Tree Case Study)
@@ -92,6 +94,8 @@ For more of my project work or independent capstones, please visit the pinned re
 - Demonstrated the effectiveness of decision trees for predictive modeling
 - Highlighted the importance of model simplicity and interpretability for specific datasets
 
+![Decision_Tree](images/decision_tree.png)
+
 [Link to Customer Purchasing Prediction Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Customer%20Purchasing%20Prediction%20(Decision%20Tree%20Case%20Study)/Springboard%20Decision%20Tree%20Specialty%20Coffee%20Case%20Study%20-%20Tier%203.ipynb)
 
 ## COVID-19 Prediction (Random Forest Case Study)
@@ -111,6 +115,8 @@ For more of my project work or independent capstones, please visit the pinned re
 
 - Demonstrated the application of random forests for predicting disease severity
 - Highlighted the importance of feature selection and hyperparameter tuning
+
+![Random_Forest](images/random_forest.png)
 
 [Link to COVID-19 Random Forest Case Study notebook](https://github.com/dennisvdang/Springboard-Portfolio/blob/main/Case%20Studies/Random%20Forest%20(Covid%20Case%20Study)/RandomForest_casestudy_covid19.ipynb)
 
