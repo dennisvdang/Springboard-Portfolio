@@ -1,6 +1,6 @@
 ![Banner Image](images/banner.webp)
 
-# Springboard Data Science Portfolio
+# Data Science Portfolio
 
 This repository is a curated collection of my work and solutions to case studies, mini-projects, and a guided capstone that are part of the Springboard Data Science program.
 
